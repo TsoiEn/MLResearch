@@ -19,7 +19,10 @@ def decrypt_data(encrypted_data):
     :param encrypted_data: Encrypted DataFrame or Series.
     :return: Decrypted DataFrame with same structure.
     """
-    decrypted_data = encrypted_data.applymap(lambda x: private_key.decrypt(x) if isinstance(x, paillier.EncryptedNumber) else x)
+    decrypted_data = encrypted_data.apply(lambda col: col.map(
+    lambda x: private_key.decrypt(x) if isinstance(x, paillier.EncryptedNumber) else x
+    ))
+
     return decrypted_data
 
 def process_encrypted_data(encrypted_data):

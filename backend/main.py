@@ -5,11 +5,11 @@ from ml_model.ml_pipeline import predict_on_encrypted_data
 
 def main():
     # Step 1: Load dataset
-    data = read_csv("data/dataset.csv")
+    data = read_csv("/home/tsoien/github/MLResearch/backend/data/Disease_symptom_and_patient_profile_dataset.csv")
 
     # Step 2: Encrypt data
     encrypted_data = encrypt_data(data)
-    write_csv("data/encrypted_data.csv", encrypted_data)
+    write_csv("/home/tsoien/github/MLResearch/backend/data/Disease_symptom_and_patient_profile_dataset.csv", encrypted_data)
 
     # Step 3: Initialize blockchain
     blockchain = Blockchain()
@@ -17,7 +17,7 @@ def main():
 
     # Step 4: Apply ML model
     predictions = predict_on_encrypted_data(encrypted_data)
-    write_csv("data/results.csv", predictions)
+    write_csv("d/home/tsoien/github/MLResearch/backend/data/Disease_symptom_and_patient_profile_dataset.csvcl", predictions)
 
     print("Process completed successfully!")
 

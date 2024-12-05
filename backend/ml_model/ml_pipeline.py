@@ -21,19 +21,25 @@ def preprocess_data(data):
     Preprocess the input data (e.g., decrypt, scale, encode).
     This is where the preprocessing pipeline for your model is applied.
     """
-    # Define the preprocessing pipeline (this should match your training pipeline)
+    # Define the preprocessing pipeline
     categorical_features = ['Disease', 'Gender', 'Fever', 'Cough', 'Fatigue', 'Difficulty Breathing']
-    numerical_features = ['Age', 'Blood Pressure', 'Cholesterol Level']
-
+    
+    # Check if columns like 'Blood Pressure' and 'Cholesterol Level' are categorical
+    numerical_features = ['Age', 'Blood Pressure', 'Cholesterol Level']  # You might need to recheck these columns
+    
+    # If columns like 'Blood Pressure' and 'Cholesterol Level' are categorical, adjust as follows:
+    # numerical_features = [] # If they are categorical, add them to categorical_features
+    
     # Column transformer
     preprocessor = ColumnTransformer(
         transformers=[
-            ("num", StandardScaler(), numerical_features),
-            ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_features),
+            ("num", StandardScaler(), numerical_features),  # Scale numerical columns
+            ("cat", OneHotEncoder(handle_unknown="ignore"), categorical_features),  # Encode categorical columns
         ]
     )
     
     return preprocessor
+
 
 def load_model():
     """Load the trained machine learning model."""
