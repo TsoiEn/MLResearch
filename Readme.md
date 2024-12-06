@@ -121,7 +121,7 @@ This document outlines the step-by-step process to implement and integrate the b
      - Preprocess the dataset (e.g., feature scaling, encoding categorical variables).
      - Train a model (e.g., Random Forest, Logistic Regression).
      - Evaluate the model (e.g., accuracy, confusion matrix).
-  2. Serialize the trained model as `model.pkl` using `joblib` or `pickle`.
+  2. Serialize the trained model as `model.joblib` using `joblib`.
   3. Write a script in `ml_pipeline.py` to:
      - Load the trained model.
      - Preprocess encrypted data for predictions.
