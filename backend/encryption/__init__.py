@@ -1,1 +1,1 @@
-from .homomorphic import decrypt_data, encrypt_data, process_encrypted_data
+from .homomorphic import decrypt_data, encrypt_data, process_encrypted_data, decrypt_data

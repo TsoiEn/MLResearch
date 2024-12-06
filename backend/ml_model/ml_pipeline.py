@@ -91,11 +91,11 @@ def main():
         predictions = model.predict(processed_data)
         print("Predictions generated successfully.")
 
-        # Step 10: Save results
-        results = data.copy()
-        results["Predictions"] = predictions
-        results.to_csv(RESULT_PATH, index=False)
-        print(f"Results saved to {RESULT_PATH}")
+        # # Step 10: Save results
+        # results = data.copy()
+        # results["Predictions"] = predictions
+        # results.to_csv(RESULT_PATH, index=False)
+        # print(f"Results saved to {RESULT_PATH}")
 
     except Exception as e:
         print(f"An error occurred: {e}")

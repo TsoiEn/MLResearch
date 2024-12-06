@@ -8,20 +8,29 @@ logging.basicConfig(level=logging.INFO)
 
 
 class Block:
-    """A single block in the blockchain."""
-    def __init__(self, index, timestamp, data, previous_hash, validator):
+    def __init__(self, index, timestamp, patient_data, prediction, previous_hash):
         self.index = index
         self.timestamp = timestamp
-        self.data = data
+        self.patient_data = patient_data
+        self.prediction = prediction
         self.previous_hash = previous_hash
         self.hash = self.calculate_hash()
-        self.validator = validator  # Validator who created this block
-        self.signature = None  # Signature by validator
+        self.signature = None
+        self.validator_name = None
+        self.validator_public_key = None
 
     def calculate_hash(self):
         """Calculate the hash of the block."""
-        block_string = f"{self.index}{self.timestamp}{json.dumps(self.data, sort_keys=True)}{self.previous_hash}"
-        return hashlib.sha256(block_string.encode()).hexdigest()
+        block_data = {
+            "index": self.index,
+            "timestamp": self.timestamp,
+            "patient_data": self.patient_data,
+            "prediction": self.prediction,
+            "previous_hash": self.previous_hash,
+        }
+        block_string = json.dumps(block_data, sort_keys=True).encode()
+        return hashlib.sha256(block_string).hexdigest()
+
 
     def sign_block(self, validator_name):
         """Sign the block with the validator's name."""
@@ -66,6 +75,7 @@ class Blockchain:
         logging.info("Blockchain is valid.")
         return True
 
-    def add_transaction(self, data):
-        new_block = Block(len(self.chain), time(), data, self.get_latest_block().hash)
+    def add_transaction(self, patient_data, prediction, validator):
+        new_block = Block(len(self.chain), time(), patient_data, prediction, self.get_latest_block().hash, validator)
         self.add_block(new_block)
+
