@@ -304,3 +304,15 @@ db.close()
 
 
 """
+
+
+
+algorithm
+
+checking and adding in the database:
+adding new data in dataset check the final count in the id + 1 (for new data)
+id of the new data, pointing to the new data index(id) then append the prediction of the model
+
+blockchain:
+append the block attributes in the table of blockchain in the database.
+
