@@ -1,350 +1,350 @@
-Disease,Fever,Cough,Fatigue,Difficulty Breathing,Age,Gender,Blood Pressure,Cholesterol Level,Outcome Variable,Predictions
-Influenza,1,0,1,1,19,2,1,1.0,Positive,Positive
-Common Cold,0,1,1,0,25,2,2,1.0,Negative,Negative
-Eczema,0,1,1,0,25,2,2,1.0,Negative,Negative
-Asthma,1,1,0,1,25,1,2,1.0,Positive,Positive
-Asthma,1,1,0,1,25,1,2,1.0,Positive,Positive
-Eczema,1,0,0,0,25,2,2,1.0,Positive,Negative
-Influenza,1,1,1,1,25,2,2,1.0,Positive,Positive
-Influenza,1,1,1,1,25,2,2,1.0,Positive,Positive
-Hyperthyroidism,0,1,0,0,28,2,2,1.0,Negative,Negative
-Hyperthyroidism,0,1,0,0,28,2,2,1.0,Negative,Negative
-Asthma,1,0,0,1,28,1,3,1.0,Positive,Positive
-Allergic Rhinitis,0,1,1,0,29,2,2,0.0,Negative,Negative
-Anxiety Disorders,0,1,0,0,29,2,2,2.0,Negative,Negative
-Common Cold,0,0,0,0,29,2,1,1.0,Negative,Negative
-Diabetes,0,0,0,0,29,1,1,1.0,Negative,Negative
-Gastroenteritis,0,1,0,0,29,2,2,1.0,Negative,Negative
-Pancreatitis,1,0,0,0,29,2,3,1.0,Negative,Negative
-Rheumatoid Arthritis,0,1,1,1,29,2,3,2.0,Negative,Negative
-Depression,1,1,1,1,29,1,3,1.0,Positive,Positive
-Liver Cancer,1,1,1,1,29,2,2,1.0,Positive,Positive
-Stroke,1,1,1,1,29,2,2,1.0,Positive,Positive
-Urinary Tract Infection,1,1,1,0,29,1,3,2.0,Positive,Positive
-Dengue Fever,1,0,1,0,30,2,2,1.0,Negative,Negative
-Dengue Fever,1,0,1,0,30,2,2,1.0,Negative,Negative
-Eczema,0,1,1,0,30,1,3,2.0,Negative,Negative
-Gastroenteritis,1,1,1,0,30,1,3,2.0,Negative,Positive
-Hepatitis,1,1,1,1,30,1,3,1.0,Negative,Negative
-Kidney Cancer,0,0,1,0,30,1,2,1.0,Negative,Negative
-Migraine,1,0,0,0,30,2,2,1.0,Negative,Negative
-Migraine,0,1,1,0,30,2,2,1.0,Negative,Negative
-Muscular Dystrophy,0,0,1,0,30,1,3,2.0,Negative,Positive
-Sinusitis,0,1,1,0,30,1,2,1.0,Negative,Negative
-Ulcerative Colitis,1,1,0,0,30,2,2,1.0,Negative,Negative
-Ulcerative Colitis,0,1,1,0,30,2,2,1.0,Negative,Negative
-Asthma,1,1,0,1,30,2,2,1.0,Positive,Positive
-Asthma,1,1,0,1,30,2,2,1.0,Positive,Positive
-Asthma,1,1,1,1,30,2,2,1.0,Positive,Positive
-Bipolar Disorder,0,0,1,0,30,2,3,2.0,Positive,Positive
-Bronchitis,1,1,0,1,30,2,1,1.0,Positive,Positive
-Bronchitis,1,1,1,1,30,1,3,2.0,Positive,Positive
-Bronchitis,1,1,1,1,30,1,3,2.0,Positive,Positive
-Cerebral Palsy,0,0,1,1,30,2,2,1.0,Positive,Positive
-Colorectal Cancer,0,0,1,0,30,2,2,2.0,Positive,Positive
-Eczema,1,0,0,0,30,1,3,2.0,Positive,Positive
-Hypertensive Heart Disease,0,0,1,0,30,2,3,2.0,Positive,Positive
-Influenza,1,1,1,0,30,1,3,1.0,Positive,Positive
-Influenza,1,1,1,1,30,2,2,1.0,Positive,Positive
-Multiple Sclerosis,0,0,1,0,30,2,3,2.0,Positive,Positive
-Myocardial Infarction (Heart...,1,1,1,1,30,2,3,2.0,Positive,Positive
-Urinary Tract Infection (UTI),1,0,0,0,30,2,2,1.0,Positive,Positive
-Asthma,0,0,0,1,31,1,2,0.0,Negative,Negative
-Osteoporosis,0,0,0,1,31,1,1,1.0,Negative,Negative
-Common Cold,1,0,1,1,31,1,3,2.0,Positive,Positive
-Migraine,1,0,0,0,31,2,2,1.0,Positive,Positive
-Pneumonia,1,0,1,1,32,2,3,1.0,Positive,Positive
-Allergic Rhinitis,0,0,1,0,35,2,2,0.0,Negative,Negative
-Asthma,0,1,1,1,35,2,2,2.0,Negative,Positive
-Asthma,1,1,1,1,35,2,2,1.0,Negative,Positive
-Asthma,0,1,1,1,35,2,3,1.0,Negative,Negative
-Asthma,0,1,1,1,35,2,3,1.0,Negative,Negative
-Atherosclerosis,0,0,1,0,35,1,2,1.0,Negative,Negative
-Chronic Obstructive Pulmonary...,1,1,1,1,35,1,2,1.0,Negative,Negative
-Common Cold,1,1,1,0,35,1,3,1.0,Negative,Negative
-Eczema,0,1,0,0,35,1,3,1.0,Negative,Negative
-Epilepsy,0,0,1,0,35,1,3,2.0,Negative,Negative
-Hypertension,1,1,1,0,35,2,3,1.0,Negative,Negative
-Hyperthyroidism,1,1,1,0,35,2,2,1.0,Negative,Negative
-Obsessive-Compulsive Disorde...,0,0,1,0,35,1,2,1.0,Negative,Negative
-Pneumonia,1,1,1,1,35,2,2,1.0,Negative,Negative
-Pneumonia,1,1,1,1,35,2,2,1.0,Negative,Negative
-Psoriasis,1,0,0,0,35,2,2,0.0,Negative,Negative
-Psoriasis,0,1,1,0,35,2,2,0.0,Negative,Negative
-Rubella,1,0,1,0,35,2,3,1.0,Negative,Negative
-Rubella,1,0,1,0,35,2,3,1.0,Negative,Negative
-Urinary Tract Infection (UTI),0,1,1,0,35,1,3,2.0,Negative,Negative
-Asthma,1,1,0,1,35,1,2,1.0,Positive,Positive
-Asthma,1,1,0,1,35,1,2,1.0,Positive,Positive
-Cirrhosis,0,0,1,0,35,2,2,2.0,Positive,Positive
-Conjunctivitis (Pink Eye),0,1,0,0,35,2,3,2.0,Positive,Positive
-Depression,0,0,1,0,35,2,2,2.0,Positive,Positive
-Gastroenteritis,1,0,1,1,35,1,1,2.0,Positive,Positive
-Hyperthyroidism,1,1,1,0,35,1,3,2.0,Positive,Positive
-Hyperthyroidism,1,1,1,0,35,1,3,2.0,Positive,Positive
-Kidney Cancer,0,0,1,0,35,1,3,2.0,Positive,Positive
-Liver Cancer,0,0,1,0,35,2,3,2.0,Positive,Positive
-Liver Disease,0,0,1,0,35,1,3,2.0,Positive,Positive
-Malaria,1,0,0,0,35,1,3,2.0,Positive,Positive
-Malaria,1,0,0,0,35,1,3,2.0,Positive,Positive
-Migraine,0,1,1,0,35,1,3,2.0,Positive,Positive
-Migraine,1,0,0,0,35,1,3,2.0,Positive,Positive
-Pancreatitis,0,0,1,0,35,1,2,2.0,Positive,Positive
-Rheumatoid Arthritis,1,1,1,0,35,1,2,0.0,Positive,Positive
-Rheumatoid Arthritis,0,0,1,0,35,2,2,0.0,Positive,Positive
-Spina Bifida,0,0,1,0,35,2,2,1.0,Positive,Positive
-Ulcerative Colitis,0,0,1,0,35,1,3,2.0,Positive,Positive
-Ulcerative Colitis,1,0,0,0,35,1,3,2.0,Positive,Positive
-Urinary Tract Infection,1,0,1,0,35,2,2,2.0,Positive,Positive
-Allergic Rhinitis,0,1,0,0,38,2,1,1.0,Negative,Negative
-Depression,0,0,0,0,38,2,2,2.0,Negative,Negative
-Gastroenteritis,0,0,0,0,38,1,2,0.0,Negative,Negative
-Influenza,0,0,0,0,38,1,2,1.0,Negative,Negative
-Kidney Disease,0,0,1,0,38,2,1,1.0,Negative,Negative
-Liver Cancer,1,1,0,0,38,2,3,1.0,Negative,Negative
-Liver Disease,0,1,0,1,38,1,1,1.0,Negative,Negative
-Osteoporosis,0,1,0,0,38,2,2,2.0,Negative,Negative
-Stroke,1,1,0,0,38,2,3,1.0,Negative,Negative
-Anxiety Disorders,1,0,1,1,38,1,3,2.0,Positive,Positive
-Diabetes,1,0,1,1,38,1,3,0.0,Positive,Positive
-Migraine,1,1,0,0,38,1,3,2.0,Positive,Positive
-Osteoarthritis,1,1,1,0,38,1,3,2.0,Positive,Positive
-Pneumonia,1,1,1,1,38,1,2,1.0,Positive,Positive
-Klinefelter Syndrome,0,0,1,0,39,2,2,1.0,Positive,Positive
-Acne,0,0,1,0,40,1,2,1.0,Negative,Negative
-Brain Tumor,0,0,1,0,40,1,2,1.0,Negative,Negative
-Bronchitis,0,1,0,1,40,2,2,1.0,Negative,Negative
-Cystic Fibrosis,0,0,1,1,40,1,3,2.0,Negative,Negative
-Diabetes,1,0,0,0,40,2,3,2.0,Negative,Negative
-Glaucoma,0,0,1,0,40,1,3,1.0,Negative,Negative
-Osteoarthritis,0,0,1,0,40,1,3,1.0,Negative,Negative
-Rabies,1,1,0,0,40,2,3,1.0,Negative,Negative
-Rabies,1,1,0,0,40,2,3,1.0,Negative,Negative
-Asthma,1,0,1,0,40,1,1,1.0,Positive,Positive
-Asthma,1,1,0,1,40,2,2,1.0,Positive,Positive
-Asthma,1,1,0,1,40,2,2,1.0,Positive,Positive
-Asthma,0,0,1,1,40,1,3,2.0,Positive,Positive
-Asthma,1,0,1,1,40,1,2,2.0,Positive,Positive
-Asthma,1,0,1,1,40,1,2,2.0,Positive,Positive
-Chickenpox,0,1,0,0,40,1,2,2.0,Positive,Positive
-Chickenpox,0,1,0,0,40,1,2,2.0,Positive,Positive
-Coronary Artery Disease,0,0,1,0,40,2,3,2.0,Positive,Positive
-"Eating Disorders (Anorexia,...",0,0,1,0,40,2,3,2.0,Positive,Positive
-Fibromyalgia,0,0,1,0,40,2,3,2.0,Positive,Positive
-Gastroenteritis,1,1,1,0,40,1,3,2.0,Positive,Positive
-Hemophilia,0,0,1,0,40,2,2,1.0,Positive,Positive
-Hyperthyroidism,0,0,1,0,40,1,3,2.0,Positive,Positive
-Hypoglycemia,0,0,1,0,40,2,3,2.0,Positive,Positive
-Lymphoma,0,1,0,0,40,2,2,2.0,Positive,Positive
-Pneumonia,1,1,1,1,40,2,2,2.0,Positive,Positive
-Psoriasis,0,1,1,0,40,1,3,1.0,Positive,Positive
-Psoriasis,1,0,0,0,40,1,3,1.0,Positive,Positive
-Psoriasis,0,1,0,0,40,2,2,2.0,Positive,Positive
-Tuberculosis,1,1,1,1,40,1,3,2.0,Positive,Positive
-Tuberculosis,1,1,1,1,40,1,3,2.0,Positive,Positive
-Anxiety Disorders,0,0,0,0,42,1,1,1.0,Negative,Negative
-Common Cold,1,1,0,0,42,2,3,2.0,Negative,Negative
-Depression,1,0,0,1,42,1,3,1.0,Negative,Negative
-Influenza,0,1,0,0,42,2,2,2.0,Negative,Negative
-Kidney Cancer,1,0,0,0,42,2,2,1.0,Negative,Negative
-Liver Cancer,1,0,1,1,42,1,2,0.0,Negative,Negative
-Liver Disease,1,0,0,1,42,2,2,1.0,Negative,Negative
-Lung Cancer,1,0,1,1,42,1,2,0.0,Negative,Negative
-Migraine,1,1,1,0,42,1,3,2.0,Negative,Negative
-Osteoarthritis,0,0,1,0,42,1,2,0.0,Negative,Negative
-Stroke,1,0,1,0,42,1,2,0.0,Negative,Negative
-Urinary Tract Infection,0,1,1,1,42,2,2,0.0,Negative,Negative
-Diabetes,1,1,1,0,42,1,3,1.0,Positive,Positive
-Hypothyroidism,1,1,1,0,42,2,3,2.0,Positive,Positive
-Hypothyroidism,1,1,1,0,42,2,3,2.0,Positive,Positive
-Kidney Disease,1,0,1,0,42,2,3,0.0,Positive,Positive
-Pneumonia,0,1,1,1,43,2,3,1.0,Positive,Positive
-Allergic Rhinitis,0,1,1,0,45,1,3,1.0,Negative,Negative
-Autism Spectrum Disorder (ASD),0,0,1,0,45,1,2,1.0,Negative,Negative
-Crohn's Disease,1,0,1,0,45,1,3,1.0,Negative,Negative
-Hepatitis,1,0,1,0,45,2,3,2.0,Negative,Negative
-Hepatitis,1,0,1,0,45,2,3,2.0,Negative,Negative
-Hyperglycemia,0,0,1,0,45,1,2,1.0,Negative,Negative
-Kidney Cancer,0,1,1,1,45,1,2,0.0,Negative,Negative
-Kidney Disease,1,1,0,0,45,1,2,2.0,Negative,Negative
-Melanoma,1,0,1,0,45,1,3,1.0,Negative,Negative
-Migraine,0,0,0,0,45,2,1,1.0,Negative,Negative
-Ovarian Cancer,0,0,1,0,45,1,2,1.0,Negative,Negative
-Pancreatitis,0,1,1,1,45,1,2,0.0,Negative,Negative
-Rheumatoid Arthritis,1,0,0,0,45,1,2,1.0,Negative,Negative
-Stroke,0,0,1,0,45,1,2,1.0,Negative,Negative
-Turner Syndrome,0,0,1,0,45,1,3,2.0,Negative,Negative
-Turner Syndrome,0,0,1,0,45,1,3,2.0,Negative,Negative
-Urinary Tract Infection,0,0,0,0,45,2,1,1.0,Negative,Negative
-Zika Virus,0,1,1,0,45,2,3,2.0,Negative,Negative
-Zika Virus,0,1,1,0,45,2,3,2.0,Negative,Negative
-Allergic Rhinitis,1,1,1,0,45,1,3,1.0,Positive,Negative
-Anxiety Disorders,1,1,1,0,45,1,3,1.0,Positive,Positive
-Asthma,1,1,0,1,45,1,2,1.0,Positive,Positive
-Asthma,1,1,0,1,45,1,2,1.0,Positive,Positive
-Cataracts,0,0,1,0,45,2,2,2.0,Positive,Positive
-Crohn's Disease,0,0,1,0,45,2,3,2.0,Positive,Positive
-Crohn's Disease,1,1,1,0,45,2,3,2.0,Positive,Positive
-Depression,0,0,1,0,45,2,3,2.0,Positive,Positive
-Diabetes,1,0,1,0,45,2,3,2.0,Positive,Positive
-Diabetes,0,1,1,0,45,1,2,2.0,Positive,Positive
-Hypertension,1,0,1,0,45,1,2,2.0,Positive,Positive
-Hypothyroidism,0,0,1,0,45,2,3,2.0,Positive,Positive
-Liver Disease,1,1,1,0,45,2,2,2.0,Positive,Positive
-Multiple Sclerosis,1,0,0,0,45,2,3,2.0,Positive,Positive
-Multiple Sclerosis,1,0,0,0,45,2,3,2.0,Positive,Positive
-Osteoarthritis,1,0,1,1,45,1,3,1.0,Positive,Positive
-Osteoporosis,1,1,1,0,45,2,2,2.0,Positive,Positive
-Pneumocystis Pneumonia (PCP),1,1,1,0,45,2,3,2.0,Positive,Positive
-Pneumonia,1,1,1,1,45,1,3,2.0,Positive,Positive
-Scoliosis,0,0,0,0,45,2,3,2.0,Positive,Positive
-Sickle Cell Anemia,0,0,1,0,45,2,2,1.0,Positive,Positive
-Tetanus,0,0,1,0,45,1,2,2.0,Positive,Positive
-Tetanus,0,0,1,0,45,1,2,2.0,Positive,Positive
-Hypertension,0,0,0,0,48,2,1,2.0,Negative,Negative
-Hypothyroidism,0,0,1,0,48,1,2,2.0,Negative,Negative
-Hypothyroidism,0,0,1,0,48,1,2,2.0,Negative,Negative
-Allergic Rhinitis,1,0,0,0,50,1,3,2.0,Negative,Negative
-Anemia,0,0,1,0,50,1,2,1.0,Negative,Negative
-Anxiety Disorders,0,0,1,0,50,1,2,1.0,Negative,Negative
-Cholera,1,0,1,1,50,2,3,2.0,Negative,Negative
-Cholera,1,0,1,1,50,2,3,2.0,Negative,Negative
-Crohn's Disease,1,1,1,0,50,1,2,2.0,Negative,Negative
-Crohn's Disease,0,0,1,0,50,1,2,2.0,Negative,Negative
-Depression,0,1,1,0,50,2,1,0.0,Negative,Negative
-Diabetes,0,1,0,0,50,1,2,2.0,Negative,Negative
-Endometriosis,1,0,0,0,50,1,3,1.0,Negative,Negative
-Hypertension,0,1,0,0,50,2,2,0.0,Negative,Negative
-Hypothyroidism,1,1,1,0,50,1,2,2.0,Negative,Negative
-Kidney Cancer,0,1,0,0,50,1,1,2.0,Negative,Negative
-Kidney Disease,0,1,0,1,50,1,2,1.0,Negative,Negative
-Pancreatitis,0,1,0,0,50,1,1,2.0,Negative,Negative
-Rheumatoid Arthritis,0,1,0,0,50,2,1,1.0,Negative,Negative
-Sepsis,1,1,1,0,50,1,2,1.0,Negative,Negative
-Sleep Apnea,1,0,1,1,50,1,3,2.0,Negative,Negative
-Urinary Tract Infection,1,1,0,1,50,1,3,1.0,Negative,Negative
-Asthma,1,1,1,1,50,2,2,2.0,Positive,Positive
-Bronchitis,1,1,1,1,50,1,3,2.0,Positive,Positive
-Down Syndrome,0,0,1,0,50,2,3,2.0,Positive,Positive
-Ebola Virus,1,1,1,1,50,1,2,1.0,Positive,Positive
-Ebola Virus,1,1,1,1,50,1,2,1.0,Positive,Positive
-Eczema,0,1,0,0,50,2,3,2.0,Positive,Positive
-Gastroenteritis,1,1,1,1,50,2,3,1.0,Positive,Positive
-Klinefelter Syndrome,0,0,1,0,50,2,2,1.0,Positive,Positive
-Liver Cancer,0,1,1,1,50,1,3,2.0,Positive,Positive
-Lyme Disease,1,0,0,0,50,1,2,2.0,Positive,Negative
-Lyme Disease,1,0,0,0,50,1,2,2.0,Positive,Negative
-Pancreatic Cancer,0,0,1,0,50,2,3,2.0,Positive,Positive
-Pneumothorax,0,0,1,1,50,2,3,2.0,Positive,Positive
-Stroke,0,1,1,1,50,1,3,2.0,Positive,Positive
-Ulcerative Colitis,0,1,1,0,50,2,2,2.0,Positive,Positive
-Hypertension,1,1,0,0,52,1,2,0.0,Negative,Negative
-Multiple Sclerosis,0,1,1,0,52,1,2,1.0,Negative,Negative
-Multiple Sclerosis,0,1,1,0,52,1,2,1.0,Negative,Negative
-Appendicitis,1,0,1,0,55,1,2,1.0,Negative,Negative
-Bronchitis,0,0,1,1,55,1,3,2.0,Negative,Negative
-Bronchitis,1,1,1,1,55,1,3,1.0,Negative,Negative
-Common Cold,1,0,1,1,55,1,2,0.0,Negative,Negative
-Diabetes,0,1,0,0,55,2,2,2.0,Negative,Negative
-Esophageal Cancer,0,0,1,0,55,1,2,1.0,Negative,Negative
-HIV/AIDS,1,0,0,0,55,2,3,2.0,Negative,Negative
-HIV/AIDS,1,0,0,0,55,2,3,2.0,Negative,Negative
-Hypertension,0,1,0,0,55,2,2,0.0,Negative,Negative
-Liver Disease,0,1,1,0,55,1,3,0.0,Negative,Negative
-Marfan Syndrome,0,0,1,0,55,1,3,2.0,Negative,Negative
-Migraine,0,1,1,1,55,2,2,0.0,Negative,Negative
-Osteoporosis,0,0,1,0,55,1,3,1.0,Negative,Negative
-Parkinson's Disease,0,0,1,0,55,2,2,0.0,Negative,Negative
-Parkinson's Disease,0,0,1,0,55,2,2,0.0,Negative,Negative
-Anxiety Disorders,1,1,0,0,55,2,2,0.0,Positive,Positive
-Coronary Artery Disease,0,0,1,0,55,2,2,1.0,Positive,Positive
-Coronary Artery Disease,0,0,1,0,55,2,2,1.0,Positive,Positive
-Hemorrhoids,0,0,0,0,55,2,3,2.0,Positive,Positive
-Hypertension,1,0,1,0,55,1,3,1.0,Positive,Positive
-Hypothyroidism,0,0,1,0,55,2,3,2.0,Positive,Positive
-Osteoarthritis,1,1,0,0,55,2,3,2.0,Positive,Positive
-Osteoporosis,1,0,1,1,55,1,3,0.0,Positive,Positive
-Osteoporosis,0,1,1,0,55,2,2,1.0,Positive,Positive
-Osteoporosis,1,0,1,0,55,2,2,1.0,Positive,Positive
-Osteoporosis,1,0,1,0,55,2,2,1.0,Positive,Positive
-Polycystic Ovary Syndrome (PCOS),1,1,0,0,55,2,2,1.0,Positive,Positive
-Systemic Lupus Erythematosus...,0,1,1,0,55,2,3,2.0,Positive,Positive
-Typhoid Fever,0,1,0,0,55,1,2,0.0,Positive,Positive
-Typhoid Fever,0,1,0,0,55,1,2,0.0,Positive,Positive
-Influenza,1,1,1,1,56,1,3,2.0,Positive,Positive
-Pneumonia,1,1,0,1,57,1,2,2.0,Negative,Negative
-Breast Cancer,0,0,1,0,60,1,3,2.0,Negative,Negative
-Coronary Artery Disease,1,1,0,0,60,1,3,2.0,Negative,Negative
-Coronary Artery Disease,1,1,0,0,60,1,3,2.0,Negative,Negative
-Hyperthyroidism,0,0,1,0,60,1,2,1.0,Negative,Negative
-Measles,1,1,0,0,60,2,3,1.0,Negative,Negative
-Measles,1,1,0,0,60,2,3,1.0,Negative,Negative
-Osteoarthritis,0,1,0,1,60,2,2,1.0,Negative,Negative
-Osteomyelitis,0,0,1,0,60,1,2,1.0,Negative,Negative
-Osteoporosis,1,0,0,0,60,1,3,2.0,Negative,Negative
-Osteoporosis,0,1,0,0,60,1,3,2.0,Negative,Negative
-Osteoporosis,0,1,0,0,60,1,3,2.0,Negative,Negative
-Polio,1,1,1,0,60,1,2,1.0,Negative,Negative
-Asthma,1,1,1,1,60,2,3,2.0,Positive,Positive
-Chronic Kidney Disease,0,0,1,0,60,2,2,2.0,Positive,Positive
-Hemophilia,0,0,1,0,60,2,2,1.0,Positive,Positive
-Hepatitis B,0,1,1,0,60,1,2,0.0,Positive,Positive
-Hepatitis B,0,1,1,0,60,1,2,0.0,Positive,Positive
-Hypertension,0,0,1,0,60,2,3,1.0,Positive,Positive
-Hypertension,1,0,1,0,60,1,3,1.0,Positive,Positive
-Hypertension,0,0,0,0,60,2,3,2.0,Positive,Positive
-Kidney Cancer,1,1,1,0,60,2,3,1.0,Positive,Positive
-Kidney Disease,1,1,1,1,60,2,3,2.0,Positive,Positive
-Osteoporosis,1,0,1,0,60,1,3,1.0,Positive,Positive
-Pancreatitis,1,1,1,0,60,2,3,1.0,Positive,Positive
-Parkinson's Disease,1,1,0,0,60,1,3,1.0,Positive,Positive
-Parkinson's Disease,1,1,0,0,60,1,3,1.0,Positive,Positive
-Prader-Willi Syndrome,0,0,1,0,60,2,2,1.0,Positive,Positive
-Rheumatoid Arthritis,0,0,1,0,60,2,3,2.0,Positive,Positive
-Thyroid Cancer,0,0,1,0,60,2,3,2.0,Positive,Positive
-Tuberculosis,1,1,1,0,60,2,3,2.0,Positive,Positive
-Bladder Cancer,0,0,1,0,65,1,2,1.0,Negative,Negative
-Diabetes,0,0,1,0,65,1,2,2.0,Negative,Negative
-Otitis Media (Ear Infection),1,1,1,0,65,1,2,1.0,Negative,Negative
-Stroke,1,0,1,0,65,2,3,0.0,Negative,Negative
-Stroke,1,0,1,0,65,2,3,0.0,Negative,Negative
-Tourette Syndrome,0,0,1,0,65,1,3,2.0,Negative,Positive
-Urinary Tract Infection (UTI),1,0,1,0,65,1,3,1.0,Negative,Negative
-Alzheimer's Disease,0,1,0,0,65,1,2,2.0,Positive,Positive
-Alzheimer's Disease,0,1,0,0,65,1,2,2.0,Positive,Positive
-Alzheimer's Disease,0,0,1,0,65,2,3,2.0,Positive,Positive
-Bronchitis,1,0,1,1,65,1,3,2.0,Positive,Positive
-Chronic Obstructive Pulmonary Disease (COPD),1,0,1,1,65,2,3,2.0,Positive,Positive
-Chronic Obstructive Pulmonary Disease (COPD),1,0,1,1,65,2,3,2.0,Positive,Positive
-Dementia,0,0,1,0,65,2,3,2.0,Positive,Positive
-Diabetes,1,1,1,0,65,2,2,2.0,Positive,Positive
-Diverticulitis,0,0,1,0,65,2,3,2.0,Positive,Positive
-Liver Cancer,1,1,1,0,65,2,3,2.0,Positive,Positive
-Lung Cancer,1,1,1,0,65,2,3,2.0,Positive,Positive
-Lung Cancer,1,0,1,0,65,2,2,2.0,Positive,Positive
-Mumps,0,0,1,0,65,1,2,2.0,Positive,Positive
-Mumps,0,0,1,0,65,1,2,2.0,Positive,Positive
-Osteoporosis,0,1,1,0,65,2,3,2.0,Positive,Positive
-Stroke,1,1,1,0,65,2,3,2.0,Positive,Positive
-Alzheimer's Disease,1,0,1,0,70,2,3,1.0,Negative,Negative
-Alzheimer's Disease,1,0,1,0,70,2,3,1.0,Negative,Negative
-Cholecystitis,0,0,1,0,70,1,2,1.0,Negative,Negative
-Chronic Obstructive Pulmonary Disease (COPD),0,1,1,1,70,1,2,2.0,Negative,Negative
-Chronic Obstructive Pulmonary Disease (COPD),0,1,1,1,70,1,2,2.0,Negative,Negative
-Osteoporosis,1,0,0,0,70,1,2,1.0,Negative,Negative
-Parkinson's Disease,0,0,1,0,70,1,2,1.0,Negative,Negative
-Prostate Cancer,1,1,0,0,70,1,3,1.0,Negative,Negative
-Schizophrenia,0,1,1,0,70,1,2,1.0,Negative,Negative
-Gout,1,0,1,0,70,2,2,2.0,Positive,Positive
-Migraine,0,0,1,0,70,2,2,1.0,Positive,Positive
-Stroke,0,1,0,0,70,1,2,2.0,Positive,Positive
-Stroke,0,1,0,0,70,1,2,2.0,Positive,Positive
-Testicular Cancer,0,0,1,0,70,2,3,2.0,Positive,Positive
-Tonsillitis,1,1,1,0,70,2,3,2.0,Positive,Positive
-Williams Syndrome,0,0,1,0,70,2,2,1.0,Positive,Positive
-Stroke,1,0,1,0,80,2,3,2.0,Positive,Positive
-Stroke,1,0,1,0,80,2,3,2.0,Positive,Positive
-Stroke,1,0,1,0,85,1,3,2.0,Positive,Positive
-Stroke,1,0,1,0,85,1,3,2.0,Positive,Positive
-Stroke,1,0,1,0,90,2,3,2.0,Positive,Positive
-Stroke,1,0,1,0,90,2,3,2.0,Positive,Positive
+Disease,Gender,Fever,Cough,Fatigue,Difficulty Breathing,Age,Blood Pressure,Cholesterol Level,Outcome Variable,Predictions
+Influenza,Female,Yes,No,Yes,Yes,19,Low,Normal,Positive,Positive
+Common Cold,Female,No,Yes,Yes,No,25,Normal,Normal,Negative,Negative
+Eczema,Female,No,Yes,Yes,No,25,Normal,Normal,Negative,Negative
+Asthma,Male,Yes,Yes,No,Yes,25,Normal,Normal,Positive,Positive
+Asthma,Male,Yes,Yes,No,Yes,25,Normal,Normal,Positive,Positive
+Eczema,Female,Yes,No,No,No,25,Normal,Normal,Positive,Negative
+Influenza,Female,Yes,Yes,Yes,Yes,25,Normal,Normal,Positive,Positive
+Influenza,Female,Yes,Yes,Yes,Yes,25,Normal,Normal,Positive,Positive
+Hyperthyroidism,Female,No,Yes,No,No,28,Normal,Normal,Negative,Negative
+Hyperthyroidism,Female,No,Yes,No,No,28,Normal,Normal,Negative,Negative
+Asthma,Male,Yes,No,No,Yes,28,High,Normal,Positive,Positive
+Allergic Rhinitis,Female,No,Yes,Yes,No,29,Normal,Low,Negative,Negative
+Anxiety Disorders,Female,No,Yes,No,No,29,Normal,High,Negative,Negative
+Common Cold,Female,No,No,No,No,29,Low,Normal,Negative,Negative
+Diabetes,Male,No,No,No,No,29,Low,Normal,Negative,Negative
+Gastroenteritis,Female,No,Yes,No,No,29,Normal,Normal,Negative,Negative
+Pancreatitis,Female,Yes,No,No,No,29,High,Normal,Negative,Negative
+Rheumatoid Arthritis,Female,No,Yes,Yes,Yes,29,High,High,Negative,Negative
+Depression,Male,Yes,Yes,Yes,Yes,29,High,Normal,Positive,Positive
+Liver Cancer,Female,Yes,Yes,Yes,Yes,29,Normal,Normal,Positive,Positive
+Stroke,Female,Yes,Yes,Yes,Yes,29,Normal,Normal,Positive,Positive
+Urinary Tract Infection,Male,Yes,Yes,Yes,No,29,High,High,Positive,Positive
+Dengue Fever,Female,Yes,No,Yes,No,30,Normal,Normal,Negative,Negative
+Dengue Fever,Female,Yes,No,Yes,No,30,Normal,Normal,Negative,Negative
+Eczema,Male,No,Yes,Yes,No,30,High,High,Negative,Negative
+Gastroenteritis,Male,Yes,Yes,Yes,No,30,High,High,Negative,Positive
+Hepatitis,Male,Yes,Yes,Yes,Yes,30,High,Normal,Negative,Negative
+Kidney Cancer,Male,No,No,Yes,No,30,Normal,Normal,Negative,Negative
+Migraine,Female,Yes,No,No,No,30,Normal,Normal,Negative,Negative
+Migraine,Female,No,Yes,Yes,No,30,Normal,Normal,Negative,Negative
+Muscular Dystrophy,Male,No,No,Yes,No,30,High,High,Negative,Positive
+Sinusitis,Male,No,Yes,Yes,No,30,Normal,Normal,Negative,Negative
+Ulcerative Colitis,Female,Yes,Yes,No,No,30,Normal,Normal,Negative,Negative
+Ulcerative Colitis,Female,No,Yes,Yes,No,30,Normal,Normal,Negative,Negative
+Asthma,Female,Yes,Yes,No,Yes,30,Normal,Normal,Positive,Positive
+Asthma,Female,Yes,Yes,No,Yes,30,Normal,Normal,Positive,Positive
+Asthma,Female,Yes,Yes,Yes,Yes,30,Normal,Normal,Positive,Positive
+Bipolar Disorder,Female,No,No,Yes,No,30,High,High,Positive,Positive
+Bronchitis,Female,Yes,Yes,No,Yes,30,Low,Normal,Positive,Positive
+Bronchitis,Male,Yes,Yes,Yes,Yes,30,High,High,Positive,Positive
+Bronchitis,Male,Yes,Yes,Yes,Yes,30,High,High,Positive,Positive
+Cerebral Palsy,Female,No,No,Yes,Yes,30,Normal,Normal,Positive,Positive
+Colorectal Cancer,Female,No,No,Yes,No,30,Normal,High,Positive,Positive
+Eczema,Male,Yes,No,No,No,30,High,High,Positive,Positive
+Hypertensive Heart Disease,Female,No,No,Yes,No,30,High,High,Positive,Positive
+Influenza,Male,Yes,Yes,Yes,No,30,High,Normal,Positive,Negative
+Influenza,Female,Yes,Yes,Yes,Yes,30,Normal,Normal,Positive,Positive
+Multiple Sclerosis,Female,No,No,Yes,No,30,High,High,Positive,Positive
+Myocardial Infarction (Heart...,Female,Yes,Yes,Yes,Yes,30,High,High,Positive,Positive
+Urinary Tract Infection (UTI),Female,Yes,No,No,No,30,Normal,Normal,Positive,Positive
+Asthma,Male,No,No,No,Yes,31,Normal,Low,Negative,Negative
+Osteoporosis,Male,No,No,No,Yes,31,Low,Normal,Negative,Negative
+Common Cold,Male,Yes,No,Yes,Yes,31,High,High,Positive,Positive
+Migraine,Female,Yes,No,No,No,31,Normal,Normal,Positive,Positive
+Pneumonia,Female,Yes,No,Yes,Yes,32,High,Normal,Positive,Positive
+Allergic Rhinitis,Female,No,No,Yes,No,35,Normal,Low,Negative,Negative
+Asthma,Female,No,Yes,Yes,Yes,35,Normal,High,Negative,Positive
+Asthma,Female,Yes,Yes,Yes,Yes,35,Normal,Normal,Negative,Positive
+Asthma,Female,No,Yes,Yes,Yes,35,High,Normal,Negative,Negative
+Asthma,Female,No,Yes,Yes,Yes,35,High,Normal,Negative,Negative
+Atherosclerosis,Male,No,No,Yes,No,35,Normal,Normal,Negative,Negative
+Chronic Obstructive Pulmonary...,Male,Yes,Yes,Yes,Yes,35,Normal,Normal,Negative,Negative
+Common Cold,Male,Yes,Yes,Yes,No,35,High,Normal,Negative,Negative
+Eczema,Male,No,Yes,No,No,35,High,Normal,Negative,Negative
+Epilepsy,Male,No,No,Yes,No,35,High,High,Negative,Negative
+Hypertension,Female,Yes,Yes,Yes,No,35,High,Normal,Negative,Negative
+Hyperthyroidism,Female,Yes,Yes,Yes,No,35,Normal,Normal,Negative,Negative
+Obsessive-Compulsive Disorde...,Male,No,No,Yes,No,35,Normal,Normal,Negative,Negative
+Pneumonia,Female,Yes,Yes,Yes,Yes,35,Normal,Normal,Negative,Negative
+Pneumonia,Female,Yes,Yes,Yes,Yes,35,Normal,Normal,Negative,Negative
+Psoriasis,Female,Yes,No,No,No,35,Normal,Low,Negative,Negative
+Psoriasis,Female,No,Yes,Yes,No,35,Normal,Low,Negative,Negative
+Rubella,Female,Yes,No,Yes,No,35,High,Normal,Negative,Negative
+Rubella,Female,Yes,No,Yes,No,35,High,Normal,Negative,Negative
+Urinary Tract Infection (UTI),Male,No,Yes,Yes,No,35,High,High,Negative,Negative
+Asthma,Male,Yes,Yes,No,Yes,35,Normal,Normal,Positive,Positive
+Asthma,Male,Yes,Yes,No,Yes,35,Normal,Normal,Positive,Positive
+Cirrhosis,Female,No,No,Yes,No,35,Normal,High,Positive,Positive
+Conjunctivitis (Pink Eye),Female,No,Yes,No,No,35,High,High,Positive,Positive
+Depression,Female,No,No,Yes,No,35,Normal,High,Positive,Positive
+Gastroenteritis,Male,Yes,No,Yes,Yes,35,Low,High,Positive,Positive
+Hyperthyroidism,Male,Yes,Yes,Yes,No,35,High,High,Positive,Positive
+Hyperthyroidism,Male,Yes,Yes,Yes,No,35,High,High,Positive,Positive
+Kidney Cancer,Male,No,No,Yes,No,35,High,High,Positive,Positive
+Liver Cancer,Female,No,No,Yes,No,35,High,High,Positive,Positive
+Liver Disease,Male,No,No,Yes,No,35,High,High,Positive,Positive
+Malaria,Male,Yes,No,No,No,35,High,High,Positive,Positive
+Malaria,Male,Yes,No,No,No,35,High,High,Positive,Positive
+Migraine,Male,No,Yes,Yes,No,35,High,High,Positive,Positive
+Migraine,Male,Yes,No,No,No,35,High,High,Positive,Positive
+Pancreatitis,Male,No,No,Yes,No,35,Normal,High,Positive,Positive
+Rheumatoid Arthritis,Male,Yes,Yes,Yes,No,35,Normal,Low,Positive,Positive
+Rheumatoid Arthritis,Female,No,No,Yes,No,35,Normal,Low,Positive,Positive
+Spina Bifida,Female,No,No,Yes,No,35,Normal,Normal,Positive,Positive
+Ulcerative Colitis,Male,No,No,Yes,No,35,High,High,Positive,Positive
+Ulcerative Colitis,Male,Yes,No,No,No,35,High,High,Positive,Positive
+Urinary Tract Infection,Female,Yes,No,Yes,No,35,Normal,High,Positive,Positive
+Allergic Rhinitis,Female,No,Yes,No,No,38,Low,Normal,Negative,Negative
+Depression,Female,No,No,No,No,38,Normal,High,Negative,Negative
+Gastroenteritis,Male,No,No,No,No,38,Normal,Low,Negative,Negative
+Influenza,Male,No,No,No,No,38,Normal,Normal,Negative,Negative
+Kidney Disease,Female,No,No,Yes,No,38,Low,Normal,Negative,Negative
+Liver Cancer,Female,Yes,Yes,No,No,38,High,Normal,Negative,Negative
+Liver Disease,Male,No,Yes,No,Yes,38,Low,Normal,Negative,Negative
+Osteoporosis,Female,No,Yes,No,No,38,Normal,High,Negative,Negative
+Stroke,Female,Yes,Yes,No,No,38,High,Normal,Negative,Negative
+Anxiety Disorders,Male,Yes,No,Yes,Yes,38,High,High,Positive,Positive
+Diabetes,Male,Yes,No,Yes,Yes,38,High,Low,Positive,Positive
+Migraine,Male,Yes,Yes,No,No,38,High,High,Positive,Positive
+Osteoarthritis,Male,Yes,Yes,Yes,No,38,High,High,Positive,Positive
+Pneumonia,Male,Yes,Yes,Yes,Yes,38,Normal,Normal,Positive,Positive
+Klinefelter Syndrome,Female,No,No,Yes,No,39,Normal,Normal,Positive,Positive
+Acne,Male,No,No,Yes,No,40,Normal,Normal,Negative,Negative
+Brain Tumor,Male,No,No,Yes,No,40,Normal,Normal,Negative,Negative
+Bronchitis,Female,No,Yes,No,Yes,40,Normal,Normal,Negative,Negative
+Cystic Fibrosis,Male,No,No,Yes,Yes,40,High,High,Negative,Negative
+Diabetes,Female,Yes,No,No,No,40,High,High,Negative,Negative
+Glaucoma,Male,No,No,Yes,No,40,High,Normal,Negative,Negative
+Osteoarthritis,Male,No,No,Yes,No,40,High,Normal,Negative,Negative
+Rabies,Female,Yes,Yes,No,No,40,High,Normal,Negative,Negative
+Rabies,Female,Yes,Yes,No,No,40,High,Normal,Negative,Negative
+Asthma,Male,Yes,No,Yes,No,40,Low,Normal,Positive,Positive
+Asthma,Female,Yes,Yes,No,Yes,40,Normal,Normal,Positive,Positive
+Asthma,Female,Yes,Yes,No,Yes,40,Normal,Normal,Positive,Positive
+Asthma,Male,No,No,Yes,Yes,40,High,High,Positive,Positive
+Asthma,Male,Yes,No,Yes,Yes,40,Normal,High,Positive,Positive
+Asthma,Male,Yes,No,Yes,Yes,40,Normal,High,Positive,Positive
+Chickenpox,Male,No,Yes,No,No,40,Normal,High,Positive,Positive
+Chickenpox,Male,No,Yes,No,No,40,Normal,High,Positive,Positive
+Coronary Artery Disease,Female,No,No,Yes,No,40,High,High,Positive,Positive
+"Eating Disorders (Anorexia,...",Female,No,No,Yes,No,40,High,High,Positive,Positive
+Fibromyalgia,Female,No,No,Yes,No,40,High,High,Positive,Positive
+Gastroenteritis,Male,Yes,Yes,Yes,No,40,High,High,Positive,Positive
+Hemophilia,Female,No,No,Yes,No,40,Normal,Normal,Positive,Positive
+Hyperthyroidism,Male,No,No,Yes,No,40,High,High,Positive,Positive
+Hypoglycemia,Female,No,No,Yes,No,40,High,High,Positive,Positive
+Lymphoma,Female,No,Yes,No,No,40,Normal,High,Positive,Positive
+Pneumonia,Female,Yes,Yes,Yes,Yes,40,Normal,High,Positive,Positive
+Psoriasis,Male,No,Yes,Yes,No,40,High,Normal,Positive,Positive
+Psoriasis,Male,Yes,No,No,No,40,High,Normal,Positive,Positive
+Psoriasis,Female,No,Yes,No,No,40,Normal,High,Positive,Positive
+Tuberculosis,Male,Yes,Yes,Yes,Yes,40,High,High,Positive,Positive
+Tuberculosis,Male,Yes,Yes,Yes,Yes,40,High,High,Positive,Positive
+Anxiety Disorders,Male,No,No,No,No,42,Low,Normal,Negative,Negative
+Common Cold,Female,Yes,Yes,No,No,42,High,High,Negative,Negative
+Depression,Male,Yes,No,No,Yes,42,High,Normal,Negative,Negative
+Influenza,Female,No,Yes,No,No,42,Normal,High,Negative,Negative
+Kidney Cancer,Female,Yes,No,No,No,42,Normal,Normal,Negative,Negative
+Liver Cancer,Male,Yes,No,Yes,Yes,42,Normal,Low,Negative,Negative
+Liver Disease,Female,Yes,No,No,Yes,42,Normal,Normal,Negative,Negative
+Lung Cancer,Male,Yes,No,Yes,Yes,42,Normal,Low,Negative,Negative
+Migraine,Male,Yes,Yes,Yes,No,42,High,High,Negative,Negative
+Osteoarthritis,Male,No,No,Yes,No,42,Normal,Low,Negative,Negative
+Stroke,Male,Yes,No,Yes,No,42,Normal,Low,Negative,Negative
+Urinary Tract Infection,Female,No,Yes,Yes,Yes,42,Normal,Low,Negative,Negative
+Diabetes,Male,Yes,Yes,Yes,No,42,High,Normal,Positive,Positive
+Hypothyroidism,Female,Yes,Yes,Yes,No,42,High,High,Positive,Positive
+Hypothyroidism,Female,Yes,Yes,Yes,No,42,High,High,Positive,Positive
+Kidney Disease,Female,Yes,No,Yes,No,42,High,Low,Positive,Positive
+Pneumonia,Female,No,Yes,Yes,Yes,43,High,Normal,Positive,Positive
+Allergic Rhinitis,Male,No,Yes,Yes,No,45,High,Normal,Negative,Negative
+Autism Spectrum Disorder (ASD),Male,No,No,Yes,No,45,Normal,Normal,Negative,Negative
+Crohn's Disease,Male,Yes,No,Yes,No,45,High,Normal,Negative,Negative
+Hepatitis,Female,Yes,No,Yes,No,45,High,High,Negative,Negative
+Hepatitis,Female,Yes,No,Yes,No,45,High,High,Negative,Negative
+Hyperglycemia,Male,No,No,Yes,No,45,Normal,Normal,Negative,Negative
+Kidney Cancer,Male,No,Yes,Yes,Yes,45,Normal,Low,Negative,Negative
+Kidney Disease,Male,Yes,Yes,No,No,45,Normal,High,Negative,Negative
+Melanoma,Male,Yes,No,Yes,No,45,High,Normal,Negative,Negative
+Migraine,Female,No,No,No,No,45,Low,Normal,Negative,Negative
+Ovarian Cancer,Male,No,No,Yes,No,45,Normal,Normal,Negative,Negative
+Pancreatitis,Male,No,Yes,Yes,Yes,45,Normal,Low,Negative,Negative
+Rheumatoid Arthritis,Male,Yes,No,No,No,45,Normal,Normal,Negative,Negative
+Stroke,Male,No,No,Yes,No,45,Normal,Normal,Negative,Negative
+Turner Syndrome,Male,No,No,Yes,No,45,High,High,Negative,Negative
+Turner Syndrome,Male,No,No,Yes,No,45,High,High,Negative,Negative
+Urinary Tract Infection,Female,No,No,No,No,45,Low,Normal,Negative,Negative
+Zika Virus,Female,No,Yes,Yes,No,45,High,High,Negative,Negative
+Zika Virus,Female,No,Yes,Yes,No,45,High,High,Negative,Negative
+Allergic Rhinitis,Male,Yes,Yes,Yes,No,45,High,Normal,Positive,Negative
+Anxiety Disorders,Male,Yes,Yes,Yes,No,45,High,Normal,Positive,Positive
+Asthma,Male,Yes,Yes,No,Yes,45,Normal,Normal,Positive,Positive
+Asthma,Male,Yes,Yes,No,Yes,45,Normal,Normal,Positive,Positive
+Cataracts,Female,No,No,Yes,No,45,Normal,High,Positive,Positive
+Crohn's Disease,Female,No,No,Yes,No,45,High,High,Positive,Positive
+Crohn's Disease,Female,Yes,Yes,Yes,No,45,High,High,Positive,Positive
+Depression,Female,No,No,Yes,No,45,High,High,Positive,Positive
+Diabetes,Female,Yes,No,Yes,No,45,High,High,Positive,Positive
+Diabetes,Male,No,Yes,Yes,No,45,Normal,High,Positive,Positive
+Hypertension,Male,Yes,No,Yes,No,45,Normal,High,Positive,Positive
+Hypothyroidism,Female,No,No,Yes,No,45,High,High,Positive,Positive
+Liver Disease,Female,Yes,Yes,Yes,No,45,Normal,High,Positive,Positive
+Multiple Sclerosis,Female,Yes,No,No,No,45,High,High,Positive,Positive
+Multiple Sclerosis,Female,Yes,No,No,No,45,High,High,Positive,Positive
+Osteoarthritis,Male,Yes,No,Yes,Yes,45,High,Normal,Positive,Positive
+Osteoporosis,Female,Yes,Yes,Yes,No,45,Normal,High,Positive,Positive
+Pneumocystis Pneumonia (PCP),Female,Yes,Yes,Yes,No,45,High,High,Positive,Positive
+Pneumonia,Male,Yes,Yes,Yes,Yes,45,High,High,Positive,Positive
+Scoliosis,Female,No,No,No,No,45,High,High,Positive,Positive
+Sickle Cell Anemia,Female,No,No,Yes,No,45,Normal,Normal,Positive,Positive
+Tetanus,Male,No,No,Yes,No,45,Normal,High,Positive,Positive
+Tetanus,Male,No,No,Yes,No,45,Normal,High,Positive,Positive
+Hypertension,Female,No,No,No,No,48,Low,High,Negative,Negative
+Hypothyroidism,Male,No,No,Yes,No,48,Normal,High,Negative,Negative
+Hypothyroidism,Male,No,No,Yes,No,48,Normal,High,Negative,Negative
+Allergic Rhinitis,Male,Yes,No,No,No,50,High,High,Negative,Negative
+Anemia,Male,No,No,Yes,No,50,Normal,Normal,Negative,Negative
+Anxiety Disorders,Male,No,No,Yes,No,50,Normal,Normal,Negative,Negative
+Cholera,Female,Yes,No,Yes,Yes,50,High,High,Negative,Negative
+Cholera,Female,Yes,No,Yes,Yes,50,High,High,Negative,Negative
+Crohn's Disease,Male,Yes,Yes,Yes,No,50,Normal,High,Negative,Negative
+Crohn's Disease,Male,No,No,Yes,No,50,Normal,High,Negative,Negative
+Depression,Female,No,Yes,Yes,No,50,Low,Low,Negative,Negative
+Diabetes,Male,No,Yes,No,No,50,Normal,High,Negative,Negative
+Endometriosis,Male,Yes,No,No,No,50,High,Normal,Negative,Negative
+Hypertension,Female,No,Yes,No,No,50,Normal,Low,Negative,Negative
+Hypothyroidism,Male,Yes,Yes,Yes,No,50,Normal,High,Negative,Negative
+Kidney Cancer,Male,No,Yes,No,No,50,Low,High,Negative,Negative
+Kidney Disease,Male,No,Yes,No,Yes,50,Normal,Normal,Negative,Negative
+Pancreatitis,Male,No,Yes,No,No,50,Low,High,Negative,Negative
+Rheumatoid Arthritis,Female,No,Yes,No,No,50,Low,Normal,Negative,Negative
+Sepsis,Male,Yes,Yes,Yes,No,50,Normal,Normal,Negative,Negative
+Sleep Apnea,Male,Yes,No,Yes,Yes,50,High,High,Negative,Negative
+Urinary Tract Infection,Male,Yes,Yes,No,Yes,50,High,Normal,Negative,Negative
+Asthma,Female,Yes,Yes,Yes,Yes,50,Normal,High,Positive,Positive
+Bronchitis,Male,Yes,Yes,Yes,Yes,50,High,High,Positive,Positive
+Down Syndrome,Female,No,No,Yes,No,50,High,High,Positive,Positive
+Ebola Virus,Male,Yes,Yes,Yes,Yes,50,Normal,Normal,Positive,Positive
+Ebola Virus,Male,Yes,Yes,Yes,Yes,50,Normal,Normal,Positive,Positive
+Eczema,Female,No,Yes,No,No,50,High,High,Positive,Positive
+Gastroenteritis,Female,Yes,Yes,Yes,Yes,50,High,Normal,Positive,Positive
+Klinefelter Syndrome,Female,No,No,Yes,No,50,Normal,Normal,Positive,Positive
+Liver Cancer,Male,No,Yes,Yes,Yes,50,High,High,Positive,Positive
+Lyme Disease,Male,Yes,No,No,No,50,Normal,High,Positive,Negative
+Lyme Disease,Male,Yes,No,No,No,50,Normal,High,Positive,Negative
+Pancreatic Cancer,Female,No,No,Yes,No,50,High,High,Positive,Positive
+Pneumothorax,Female,No,No,Yes,Yes,50,High,High,Positive,Positive
+Stroke,Male,No,Yes,Yes,Yes,50,High,High,Positive,Positive
+Ulcerative Colitis,Female,No,Yes,Yes,No,50,Normal,High,Positive,Positive
+Hypertension,Male,Yes,Yes,No,No,52,Normal,Low,Negative,Negative
+Multiple Sclerosis,Male,No,Yes,Yes,No,52,Normal,Normal,Negative,Negative
+Multiple Sclerosis,Male,No,Yes,Yes,No,52,Normal,Normal,Negative,Negative
+Appendicitis,Male,Yes,No,Yes,No,55,Normal,Normal,Negative,Negative
+Bronchitis,Male,No,No,Yes,Yes,55,High,High,Negative,Negative
+Bronchitis,Male,Yes,Yes,Yes,Yes,55,High,Normal,Negative,Negative
+Common Cold,Male,Yes,No,Yes,Yes,55,Normal,Low,Negative,Negative
+Diabetes,Female,No,Yes,No,No,55,Normal,High,Negative,Negative
+Esophageal Cancer,Male,No,No,Yes,No,55,Normal,Normal,Negative,Negative
+HIV/AIDS,Female,Yes,No,No,No,55,High,High,Negative,Negative
+HIV/AIDS,Female,Yes,No,No,No,55,High,High,Negative,Negative
+Hypertension,Female,No,Yes,No,No,55,Normal,Low,Negative,Negative
+Liver Disease,Male,No,Yes,Yes,No,55,High,Low,Negative,Negative
+Marfan Syndrome,Male,No,No,Yes,No,55,High,High,Negative,Negative
+Migraine,Female,No,Yes,Yes,Yes,55,Normal,Low,Negative,Negative
+Osteoporosis,Male,No,No,Yes,No,55,High,Normal,Negative,Negative
+Parkinson's Disease,Female,No,No,Yes,No,55,Normal,Low,Negative,Negative
+Parkinson's Disease,Female,No,No,Yes,No,55,Normal,Low,Negative,Negative
+Anxiety Disorders,Female,Yes,Yes,No,No,55,Normal,Low,Positive,Positive
+Coronary Artery Disease,Female,No,No,Yes,No,55,Normal,Normal,Positive,Positive
+Coronary Artery Disease,Female,No,No,Yes,No,55,Normal,Normal,Positive,Positive
+Hemorrhoids,Female,No,No,No,No,55,High,High,Positive,Positive
+Hypertension,Male,Yes,No,Yes,No,55,High,Normal,Positive,Positive
+Hypothyroidism,Female,No,No,Yes,No,55,High,High,Positive,Positive
+Osteoarthritis,Female,Yes,Yes,No,No,55,High,High,Positive,Positive
+Osteoporosis,Male,Yes,No,Yes,Yes,55,High,Low,Positive,Positive
+Osteoporosis,Female,No,Yes,Yes,No,55,Normal,Normal,Positive,Positive
+Osteoporosis,Female,Yes,No,Yes,No,55,Normal,Normal,Positive,Positive
+Osteoporosis,Female,Yes,No,Yes,No,55,Normal,Normal,Positive,Positive
+Polycystic Ovary Syndrome (PCOS),Female,Yes,Yes,No,No,55,Normal,Normal,Positive,Positive
+Systemic Lupus Erythematosus...,Female,No,Yes,Yes,No,55,High,High,Positive,Positive
+Typhoid Fever,Male,No,Yes,No,No,55,Normal,Low,Positive,Positive
+Typhoid Fever,Male,No,Yes,No,No,55,Normal,Low,Positive,Positive
+Influenza,Male,Yes,Yes,Yes,Yes,56,High,High,Positive,Positive
+Pneumonia,Male,Yes,Yes,No,Yes,57,Normal,High,Negative,Negative
+Breast Cancer,Male,No,No,Yes,No,60,High,High,Negative,Negative
+Coronary Artery Disease,Male,Yes,Yes,No,No,60,High,High,Negative,Negative
+Coronary Artery Disease,Male,Yes,Yes,No,No,60,High,High,Negative,Negative
+Hyperthyroidism,Male,No,No,Yes,No,60,Normal,Normal,Negative,Negative
+Measles,Female,Yes,Yes,No,No,60,High,Normal,Negative,Negative
+Measles,Female,Yes,Yes,No,No,60,High,Normal,Negative,Negative
+Osteoarthritis,Female,No,Yes,No,Yes,60,Normal,Normal,Negative,Negative
+Osteomyelitis,Male,No,No,Yes,No,60,Normal,Normal,Negative,Negative
+Osteoporosis,Male,Yes,No,No,No,60,High,High,Negative,Negative
+Osteoporosis,Male,No,Yes,No,No,60,High,High,Negative,Negative
+Osteoporosis,Male,No,Yes,No,No,60,High,High,Negative,Negative
+Polio,Male,Yes,Yes,Yes,No,60,Normal,Normal,Negative,Negative
+Asthma,Female,Yes,Yes,Yes,Yes,60,High,High,Positive,Positive
+Chronic Kidney Disease,Female,No,No,Yes,No,60,Normal,High,Positive,Positive
+Hemophilia,Female,No,No,Yes,No,60,Normal,Normal,Positive,Positive
+Hepatitis B,Male,No,Yes,Yes,No,60,Normal,Low,Positive,Positive
+Hepatitis B,Male,No,Yes,Yes,No,60,Normal,Low,Positive,Positive
+Hypertension,Female,No,No,Yes,No,60,High,Normal,Positive,Positive
+Hypertension,Male,Yes,No,Yes,No,60,High,Normal,Positive,Positive
+Hypertension,Female,No,No,No,No,60,High,High,Positive,Positive
+Kidney Cancer,Female,Yes,Yes,Yes,No,60,High,Normal,Positive,Negative
+Kidney Disease,Female,Yes,Yes,Yes,Yes,60,High,High,Positive,Positive
+Osteoporosis,Male,Yes,No,Yes,No,60,High,Normal,Positive,Positive
+Pancreatitis,Female,Yes,Yes,Yes,No,60,High,Normal,Positive,Negative
+Parkinson's Disease,Male,Yes,Yes,No,No,60,High,Normal,Positive,Positive
+Parkinson's Disease,Male,Yes,Yes,No,No,60,High,Normal,Positive,Positive
+Prader-Willi Syndrome,Female,No,No,Yes,No,60,Normal,Normal,Positive,Positive
+Rheumatoid Arthritis,Female,No,No,Yes,No,60,High,High,Positive,Positive
+Thyroid Cancer,Female,No,No,Yes,No,60,High,High,Positive,Positive
+Tuberculosis,Female,Yes,Yes,Yes,No,60,High,High,Positive,Positive
+Bladder Cancer,Male,No,No,Yes,No,65,Normal,Normal,Negative,Negative
+Diabetes,Male,No,No,Yes,No,65,Normal,High,Negative,Negative
+Otitis Media (Ear Infection),Male,Yes,Yes,Yes,No,65,Normal,Normal,Negative,Negative
+Stroke,Female,Yes,No,Yes,No,65,High,Low,Negative,Negative
+Stroke,Female,Yes,No,Yes,No,65,High,Low,Negative,Negative
+Tourette Syndrome,Male,No,No,Yes,No,65,High,High,Negative,Positive
+Urinary Tract Infection (UTI),Male,Yes,No,Yes,No,65,High,Normal,Negative,Negative
+Alzheimer's Disease,Male,No,Yes,No,No,65,Normal,High,Positive,Positive
+Alzheimer's Disease,Male,No,Yes,No,No,65,Normal,High,Positive,Positive
+Alzheimer's Disease,Female,No,No,Yes,No,65,High,High,Positive,Positive
+Bronchitis,Male,Yes,No,Yes,Yes,65,High,High,Positive,Positive
+Chronic Obstructive Pulmonary Disease (COPD),Female,Yes,No,Yes,Yes,65,High,High,Positive,Positive
+Chronic Obstructive Pulmonary Disease (COPD),Female,Yes,No,Yes,Yes,65,High,High,Positive,Positive
+Dementia,Female,No,No,Yes,No,65,High,High,Positive,Positive
+Diabetes,Female,Yes,Yes,Yes,No,65,Normal,High,Positive,Positive
+Diverticulitis,Female,No,No,Yes,No,65,High,High,Positive,Positive
+Liver Cancer,Female,Yes,Yes,Yes,No,65,High,High,Positive,Positive
+Lung Cancer,Female,Yes,Yes,Yes,No,65,High,High,Positive,Positive
+Lung Cancer,Female,Yes,No,Yes,No,65,Normal,High,Positive,Positive
+Mumps,Male,No,No,Yes,No,65,Normal,High,Positive,Positive
+Mumps,Male,No,No,Yes,No,65,Normal,High,Positive,Positive
+Osteoporosis,Female,No,Yes,Yes,No,65,High,High,Positive,Positive
+Stroke,Female,Yes,Yes,Yes,No,65,High,High,Positive,Positive
+Alzheimer's Disease,Female,Yes,No,Yes,No,70,High,Normal,Negative,Negative
+Alzheimer's Disease,Female,Yes,No,Yes,No,70,High,Normal,Negative,Negative
+Cholecystitis,Male,No,No,Yes,No,70,Normal,Normal,Negative,Negative
+Chronic Obstructive Pulmonary Disease (COPD),Male,No,Yes,Yes,Yes,70,Normal,High,Negative,Negative
+Chronic Obstructive Pulmonary Disease (COPD),Male,No,Yes,Yes,Yes,70,Normal,High,Negative,Negative
+Osteoporosis,Male,Yes,No,No,No,70,Normal,Normal,Negative,Negative
+Parkinson's Disease,Male,No,No,Yes,No,70,Normal,Normal,Negative,Negative
+Prostate Cancer,Male,Yes,Yes,No,No,70,High,Normal,Negative,Negative
+Schizophrenia,Male,No,Yes,Yes,No,70,Normal,Normal,Negative,Negative
+Gout,Female,Yes,No,Yes,No,70,Normal,High,Positive,Positive
+Migraine,Female,No,No,Yes,No,70,Normal,Normal,Positive,Negative
+Stroke,Male,No,Yes,No,No,70,Normal,High,Positive,Positive
+Stroke,Male,No,Yes,No,No,70,Normal,High,Positive,Positive
+Testicular Cancer,Female,No,No,Yes,No,70,High,High,Positive,Positive
+Tonsillitis,Female,Yes,Yes,Yes,No,70,High,High,Positive,Positive
+Williams Syndrome,Female,No,No,Yes,No,70,Normal,Normal,Positive,Positive
+Stroke,Female,Yes,No,Yes,No,80,High,High,Positive,Positive
+Stroke,Female,Yes,No,Yes,No,80,High,High,Positive,Positive
+Stroke,Male,Yes,No,Yes,No,85,High,High,Positive,Positive
+Stroke,Male,Yes,No,Yes,No,85,High,High,Positive,Positive
+Stroke,Female,Yes,No,Yes,No,90,High,High,Positive,Positive
+Stroke,Female,Yes,No,Yes,No,90,High,High,Positive,Positive

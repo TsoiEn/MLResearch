@@ -10,7 +10,12 @@ def encrypt_data(data):
     :param data: DataFrame or Series to encrypt.
     :return: Encrypted DataFrame with same structure.
     """
-    encrypted_data = data.applymap(lambda x: public_key.encrypt(x) if isinstance(x, (int, float)) else x)
+    encrypted_data = data.apply(
+        lambda col: col.map(
+            lambda x: public_key.encrypt(x) if isinstance(x, (int, float)) else x
+        )
+        if col.dtype.kind in "if" else col
+    )
     return encrypted_data
 
 def decrypt_data(encrypted_data):

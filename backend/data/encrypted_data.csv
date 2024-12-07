@@ -1,0 +1,350 @@
+Disease,Gender,Fever,Cough,Fatigue,Difficulty Breathing,Age,Blood Pressure,Cholesterol Level,Outcome Variable
+Influenza,Female,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c888dccb00>,Low,Normal,Positive
+Common Cold,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8b41695e0>,Normal,Normal,Negative
+Eczema,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b39e0>,Normal,Normal,Negative
+Asthma,Male,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b1fa0>,Normal,Normal,Positive
+Asthma,Male,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b3a40>,Normal,Normal,Positive
+Eczema,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3a70>,Normal,Normal,Positive
+Influenza,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b3aa0>,Normal,Normal,Positive
+Influenza,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b3ad0>,Normal,Normal,Positive
+Hyperthyroidism,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3b00>,Normal,Normal,Negative
+Hyperthyroidism,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3b30>,Normal,Normal,Negative
+Asthma,Male,Yes,No,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b3bc0>,High,Normal,Positive
+Allergic Rhinitis,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3bf0>,Normal,Low,Negative
+Anxiety Disorders,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3c80>,Normal,High,Negative
+Common Cold,Female,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3cb0>,Low,Normal,Negative
+Diabetes,Male,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3dd0>,Low,Normal,Negative
+Gastroenteritis,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3e00>,Normal,Normal,Negative
+Pancreatitis,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3e30>,High,Normal,Negative
+Rheumatoid Arthritis,Female,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b32c0>,High,High,Negative
+Depression,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b3200>,High,Normal,Positive
+Liver Cancer,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b31d0>,Normal,Normal,Positive
+Stroke,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b3290>,Normal,Normal,Positive
+Urinary Tract Infection,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3560>,High,High,Positive
+Dengue Fever,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3260>,Normal,Normal,Negative
+Dengue Fever,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b31a0>,Normal,Normal,Negative
+Eczema,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3620>,High,High,Negative
+Gastroenteritis,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3b90>,High,High,Negative
+Hepatitis,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873b3c50>,High,Normal,Negative
+Kidney Cancer,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3d10>,Normal,Normal,Negative
+Migraine,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3d70>,Normal,Normal,Negative
+Migraine,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3e60>,Normal,Normal,Negative
+Muscular Dystrophy,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3ec0>,High,High,Negative
+Sinusitis,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3f20>,Normal,Normal,Negative
+Ulcerative Colitis,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3f80>,Normal,Normal,Negative
+Ulcerative Colitis,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c88848c170>,Normal,Normal,Negative
+Asthma,Female,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0080>,Normal,Normal,Positive
+Asthma,Female,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e00e0>,Normal,Normal,Positive
+Asthma,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0140>,Normal,Normal,Positive
+Bipolar Disorder,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e01a0>,High,High,Positive
+Bronchitis,Female,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0200>,Low,Normal,Positive
+Bronchitis,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0260>,High,High,Positive
+Bronchitis,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e02c0>,High,High,Positive
+Cerebral Palsy,Female,No,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0320>,Normal,Normal,Positive
+Colorectal Cancer,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0380>,Normal,High,Positive
+Eczema,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e03e0>,High,High,Positive
+Hypertensive Heart Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0440>,High,High,Positive
+Influenza,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e04a0>,High,Normal,Positive
+Influenza,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0500>,Normal,Normal,Positive
+Multiple Sclerosis,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0560>,High,High,Positive
+Myocardial Infarction (Heart...,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e05c0>,High,High,Positive
+Urinary Tract Infection (UTI),Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0620>,Normal,Normal,Positive
+Asthma,Male,No,No,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0680>,Normal,Low,Negative
+Osteoporosis,Male,No,No,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e06e0>,Low,Normal,Negative
+Common Cold,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0740>,High,High,Positive
+Migraine,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e07a0>,Normal,Normal,Positive
+Pneumonia,Female,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0800>,High,Normal,Positive
+Allergic Rhinitis,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0860>,Normal,Low,Negative
+Asthma,Female,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e08c0>,Normal,High,Negative
+Asthma,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0920>,Normal,Normal,Negative
+Asthma,Female,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0980>,High,Normal,Negative
+Asthma,Female,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e09e0>,High,Normal,Negative
+Atherosclerosis,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0a40>,Normal,Normal,Negative
+Chronic Obstructive Pulmonary...,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0aa0>,Normal,Normal,Negative
+Common Cold,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0b00>,High,Normal,Negative
+Eczema,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0b60>,High,Normal,Negative
+Epilepsy,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0bc0>,High,High,Negative
+Hypertension,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0c20>,High,Normal,Negative
+Hyperthyroidism,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0c80>,Normal,Normal,Negative
+Obsessive-Compulsive Disorde...,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0ce0>,Normal,Normal,Negative
+Pneumonia,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0d40>,Normal,Normal,Negative
+Pneumonia,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0da0>,Normal,Normal,Negative
+Psoriasis,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0e00>,Normal,Low,Negative
+Psoriasis,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0e60>,Normal,Low,Negative
+Rubella,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0ec0>,High,Normal,Negative
+Rubella,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0f20>,High,Normal,Negative
+Urinary Tract Infection (UTI),Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e0f80>,High,High,Negative
+Asthma,Male,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e0fe0>,Normal,Normal,Positive
+Asthma,Male,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e1040>,Normal,Normal,Positive
+Cirrhosis,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e10a0>,Normal,High,Positive
+Conjunctivitis (Pink Eye),Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1100>,High,High,Positive
+Depression,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1160>,Normal,High,Positive
+Gastroenteritis,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e11c0>,Low,High,Positive
+Hyperthyroidism,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1220>,High,High,Positive
+Hyperthyroidism,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1280>,High,High,Positive
+Kidney Cancer,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e12e0>,High,High,Positive
+Liver Cancer,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1340>,High,High,Positive
+Liver Disease,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e13a0>,High,High,Positive
+Malaria,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1400>,High,High,Positive
+Malaria,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1460>,High,High,Positive
+Migraine,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e14c0>,High,High,Positive
+Migraine,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1520>,High,High,Positive
+Pancreatitis,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1580>,Normal,High,Positive
+Rheumatoid Arthritis,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e15e0>,Normal,Low,Positive
+Rheumatoid Arthritis,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1640>,Normal,Low,Positive
+Spina Bifida,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e16a0>,Normal,Normal,Positive
+Ulcerative Colitis,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1700>,High,High,Positive
+Ulcerative Colitis,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1760>,High,High,Positive
+Urinary Tract Infection,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e17c0>,Normal,High,Positive
+Allergic Rhinitis,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1820>,Low,Normal,Negative
+Depression,Female,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1880>,Normal,High,Negative
+Gastroenteritis,Male,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e18e0>,Normal,Low,Negative
+Influenza,Male,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1940>,Normal,Normal,Negative
+Kidney Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e19a0>,Low,Normal,Negative
+Liver Cancer,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1a00>,High,Normal,Negative
+Liver Disease,Male,No,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e1a60>,Low,Normal,Negative
+Osteoporosis,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1ac0>,Normal,High,Negative
+Stroke,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1b20>,High,Normal,Negative
+Anxiety Disorders,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e1b80>,High,High,Positive
+Diabetes,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e1be0>,High,Low,Positive
+Migraine,Male,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1c40>,High,High,Positive
+Osteoarthritis,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1ca0>,High,High,Positive
+Pneumonia,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e1d00>,Normal,Normal,Positive
+Klinefelter Syndrome,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1d60>,Normal,Normal,Positive
+Acne,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1dc0>,Normal,Normal,Negative
+Brain Tumor,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1e20>,Normal,Normal,Negative
+Bronchitis,Female,No,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e1e80>,Normal,Normal,Negative
+Cystic Fibrosis,Male,No,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e1ee0>,High,High,Negative
+Diabetes,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1f40>,High,High,Negative
+Glaucoma,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e1fa0>,High,Normal,Negative
+Osteoarthritis,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2000>,High,Normal,Negative
+Rabies,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2060>,High,Normal,Negative
+Rabies,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e20c0>,High,Normal,Negative
+Asthma,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2120>,Low,Normal,Positive
+Asthma,Female,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2180>,Normal,Normal,Positive
+Asthma,Female,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e21e0>,Normal,Normal,Positive
+Asthma,Male,No,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2240>,High,High,Positive
+Asthma,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e22a0>,Normal,High,Positive
+Asthma,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2300>,Normal,High,Positive
+Chickenpox,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2360>,Normal,High,Positive
+Chickenpox,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e23c0>,Normal,High,Positive
+Coronary Artery Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2420>,High,High,Positive
+"Eating Disorders (Anorexia,...",Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2480>,High,High,Positive
+Fibromyalgia,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e24e0>,High,High,Positive
+Gastroenteritis,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2540>,High,High,Positive
+Hemophilia,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e25a0>,Normal,Normal,Positive
+Hyperthyroidism,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2600>,High,High,Positive
+Hypoglycemia,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2660>,High,High,Positive
+Lymphoma,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e26c0>,Normal,High,Positive
+Pneumonia,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2720>,Normal,High,Positive
+Psoriasis,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2780>,High,Normal,Positive
+Psoriasis,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e27e0>,High,Normal,Positive
+Psoriasis,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2840>,Normal,High,Positive
+Tuberculosis,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e28a0>,High,High,Positive
+Tuberculosis,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2900>,High,High,Positive
+Anxiety Disorders,Male,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2960>,Low,Normal,Negative
+Common Cold,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e29c0>,High,High,Negative
+Depression,Male,Yes,No,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2a20>,High,Normal,Negative
+Influenza,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2a80>,Normal,High,Negative
+Kidney Cancer,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2ae0>,Normal,Normal,Negative
+Liver Cancer,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2b40>,Normal,Low,Negative
+Liver Disease,Female,Yes,No,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2ba0>,Normal,Normal,Negative
+Lung Cancer,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2c00>,Normal,Low,Negative
+Migraine,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2c60>,High,High,Negative
+Osteoarthritis,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2cc0>,Normal,Low,Negative
+Stroke,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2d20>,Normal,Low,Negative
+Urinary Tract Infection,Female,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2d80>,Normal,Low,Negative
+Diabetes,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2de0>,High,Normal,Positive
+Hypothyroidism,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2e40>,High,High,Positive
+Hypothyroidism,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2ea0>,High,High,Positive
+Kidney Disease,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2f00>,High,Low,Positive
+Pneumonia,Female,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e2f60>,High,Normal,Positive
+Allergic Rhinitis,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e2fc0>,High,Normal,Negative
+Autism Spectrum Disorder (ASD),Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3020>,Normal,Normal,Negative
+Crohn's Disease,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3080>,High,Normal,Negative
+Hepatitis,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e30e0>,High,High,Negative
+Hepatitis,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3140>,High,High,Negative
+Hyperglycemia,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e31a0>,Normal,Normal,Negative
+Kidney Cancer,Male,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e3200>,Normal,Low,Negative
+Kidney Disease,Male,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3260>,Normal,High,Negative
+Melanoma,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e32c0>,High,Normal,Negative
+Migraine,Female,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3320>,Low,Normal,Negative
+Ovarian Cancer,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3380>,Normal,Normal,Negative
+Pancreatitis,Male,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e33e0>,Normal,Low,Negative
+Rheumatoid Arthritis,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3440>,Normal,Normal,Negative
+Stroke,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e34a0>,Normal,Normal,Negative
+Turner Syndrome,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3500>,High,High,Negative
+Turner Syndrome,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3560>,High,High,Negative
+Urinary Tract Infection,Female,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e35c0>,Low,Normal,Negative
+Zika Virus,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3620>,High,High,Negative
+Zika Virus,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3680>,High,High,Negative
+Allergic Rhinitis,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e36e0>,High,Normal,Positive
+Anxiety Disorders,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3740>,High,Normal,Positive
+Asthma,Male,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e37a0>,Normal,Normal,Positive
+Asthma,Male,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e3800>,Normal,Normal,Positive
+Cataracts,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3860>,Normal,High,Positive
+Crohn's Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e38c0>,High,High,Positive
+Crohn's Disease,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3920>,High,High,Positive
+Depression,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3980>,High,High,Positive
+Diabetes,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e39e0>,High,High,Positive
+Diabetes,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3a40>,Normal,High,Positive
+Hypertension,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3aa0>,Normal,High,Positive
+Hypothyroidism,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3b00>,High,High,Positive
+Liver Disease,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3b60>,Normal,High,Positive
+Multiple Sclerosis,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3bc0>,High,High,Positive
+Multiple Sclerosis,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3c20>,High,High,Positive
+Osteoarthritis,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e3c80>,High,Normal,Positive
+Osteoporosis,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3ce0>,Normal,High,Positive
+Pneumocystis Pneumonia (PCP),Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3d40>,High,High,Positive
+Pneumonia,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e3da0>,High,High,Positive
+Scoliosis,Female,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3e00>,High,High,Positive
+Sickle Cell Anemia,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3e60>,Normal,Normal,Positive
+Tetanus,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3ec0>,Normal,High,Positive
+Tetanus,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3f20>,Normal,High,Positive
+Hypertension,Female,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e3f80>,Low,High,Negative
+Hypothyroidism,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873b3fe0>,Normal,High,Negative
+Hypothyroidism,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4080>,Normal,High,Negative
+Allergic Rhinitis,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e40e0>,High,High,Negative
+Anemia,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4140>,Normal,Normal,Negative
+Anxiety Disorders,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e41a0>,Normal,Normal,Negative
+Cholera,Female,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4200>,High,High,Negative
+Cholera,Female,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4260>,High,High,Negative
+Crohn's Disease,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e42c0>,Normal,High,Negative
+Crohn's Disease,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4320>,Normal,High,Negative
+Depression,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4380>,Low,Low,Negative
+Diabetes,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e43e0>,Normal,High,Negative
+Endometriosis,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4440>,High,Normal,Negative
+Hypertension,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e44a0>,Normal,Low,Negative
+Hypothyroidism,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4500>,Normal,High,Negative
+Kidney Cancer,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4560>,Low,High,Negative
+Kidney Disease,Male,No,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e45c0>,Normal,Normal,Negative
+Pancreatitis,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4620>,Low,High,Negative
+Rheumatoid Arthritis,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4680>,Low,Normal,Negative
+Sepsis,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e46e0>,Normal,Normal,Negative
+Sleep Apnea,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4740>,High,High,Negative
+Urinary Tract Infection,Male,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e47a0>,High,Normal,Negative
+Asthma,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4800>,Normal,High,Positive
+Bronchitis,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4860>,High,High,Positive
+Down Syndrome,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e48c0>,High,High,Positive
+Ebola Virus,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4920>,Normal,Normal,Positive
+Ebola Virus,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4980>,Normal,Normal,Positive
+Eczema,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e49e0>,High,High,Positive
+Gastroenteritis,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4a40>,High,Normal,Positive
+Klinefelter Syndrome,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4aa0>,Normal,Normal,Positive
+Liver Cancer,Male,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4b00>,High,High,Positive
+Lyme Disease,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4b60>,Normal,High,Positive
+Lyme Disease,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4bc0>,Normal,High,Positive
+Pancreatic Cancer,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4c20>,High,High,Positive
+Pneumothorax,Female,No,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4c80>,High,High,Positive
+Stroke,Male,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4ce0>,High,High,Positive
+Ulcerative Colitis,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4d40>,Normal,High,Positive
+Hypertension,Male,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4da0>,Normal,Low,Negative
+Multiple Sclerosis,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4e00>,Normal,Normal,Negative
+Multiple Sclerosis,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4e60>,Normal,Normal,Negative
+Appendicitis,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e4ec0>,Normal,Normal,Negative
+Bronchitis,Male,No,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4f20>,High,High,Negative
+Bronchitis,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4f80>,High,Normal,Negative
+Common Cold,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e4fe0>,Normal,Low,Negative
+Diabetes,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5040>,Normal,High,Negative
+Esophageal Cancer,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e50a0>,Normal,Normal,Negative
+HIV/AIDS,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5100>,High,High,Negative
+HIV/AIDS,Female,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5160>,High,High,Negative
+Hypertension,Female,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e51c0>,Normal,Low,Negative
+Liver Disease,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5220>,High,Low,Negative
+Marfan Syndrome,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5280>,High,High,Negative
+Migraine,Female,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e52e0>,Normal,Low,Negative
+Osteoporosis,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5340>,High,Normal,Negative
+Parkinson's Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e53a0>,Normal,Low,Negative
+Parkinson's Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5400>,Normal,Low,Negative
+Anxiety Disorders,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5460>,Normal,Low,Positive
+Coronary Artery Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e54c0>,Normal,Normal,Positive
+Coronary Artery Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5520>,Normal,Normal,Positive
+Hemorrhoids,Female,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5580>,High,High,Positive
+Hypertension,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e55e0>,High,Normal,Positive
+Hypothyroidism,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5640>,High,High,Positive
+Osteoarthritis,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e56a0>,High,High,Positive
+Osteoporosis,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e5700>,High,Low,Positive
+Osteoporosis,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5760>,Normal,Normal,Positive
+Osteoporosis,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e57c0>,Normal,Normal,Positive
+Osteoporosis,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5820>,Normal,Normal,Positive
+Polycystic Ovary Syndrome (PCOS),Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5880>,Normal,Normal,Positive
+Systemic Lupus Erythematosus...,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e58e0>,High,High,Positive
+Typhoid Fever,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5940>,Normal,Low,Positive
+Typhoid Fever,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e59a0>,Normal,Low,Positive
+Influenza,Male,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e5a00>,High,High,Positive
+Pneumonia,Male,Yes,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e5a60>,Normal,High,Negative
+Breast Cancer,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5ac0>,High,High,Negative
+Coronary Artery Disease,Male,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5b20>,High,High,Negative
+Coronary Artery Disease,Male,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5b80>,High,High,Negative
+Hyperthyroidism,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5be0>,Normal,Normal,Negative
+Measles,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5c40>,High,Normal,Negative
+Measles,Female,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5ca0>,High,Normal,Negative
+Osteoarthritis,Female,No,Yes,No,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e5d00>,Normal,Normal,Negative
+Osteomyelitis,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5d60>,Normal,Normal,Negative
+Osteoporosis,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5dc0>,High,High,Negative
+Osteoporosis,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5e20>,High,High,Negative
+Osteoporosis,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5e80>,High,High,Negative
+Polio,Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5ee0>,Normal,Normal,Negative
+Asthma,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e5f40>,High,High,Positive
+Chronic Kidney Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e5fa0>,Normal,High,Positive
+Hemophilia,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6000>,Normal,Normal,Positive
+Hepatitis B,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6060>,Normal,Low,Positive
+Hepatitis B,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e60c0>,Normal,Low,Positive
+Hypertension,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6120>,High,Normal,Positive
+Hypertension,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6180>,High,Normal,Positive
+Hypertension,Female,No,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e61e0>,High,High,Positive
+Kidney Cancer,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6240>,High,Normal,Positive
+Kidney Disease,Female,Yes,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e62a0>,High,High,Positive
+Osteoporosis,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6300>,High,Normal,Positive
+Pancreatitis,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6360>,High,Normal,Positive
+Parkinson's Disease,Male,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e63c0>,High,Normal,Positive
+Parkinson's Disease,Male,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6420>,High,Normal,Positive
+Prader-Willi Syndrome,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6480>,Normal,Normal,Positive
+Rheumatoid Arthritis,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e64e0>,High,High,Positive
+Thyroid Cancer,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6540>,High,High,Positive
+Tuberculosis,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e65a0>,High,High,Positive
+Bladder Cancer,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6600>,Normal,Normal,Negative
+Diabetes,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6660>,Normal,High,Negative
+Otitis Media (Ear Infection),Male,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e66c0>,Normal,Normal,Negative
+Stroke,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6720>,High,Low,Negative
+Stroke,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6780>,High,Low,Negative
+Tourette Syndrome,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e67e0>,High,High,Negative
+Urinary Tract Infection (UTI),Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6840>,High,Normal,Negative
+Alzheimer's Disease,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e68a0>,Normal,High,Positive
+Alzheimer's Disease,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6900>,Normal,High,Positive
+Alzheimer's Disease,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6960>,High,High,Positive
+Bronchitis,Male,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e69c0>,High,High,Positive
+Chronic Obstructive Pulmonary Disease (COPD),Female,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e6a20>,High,High,Positive
+Chronic Obstructive Pulmonary Disease (COPD),Female,Yes,No,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e6a80>,High,High,Positive
+Dementia,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6ae0>,High,High,Positive
+Diabetes,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6b40>,Normal,High,Positive
+Diverticulitis,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6ba0>,High,High,Positive
+Liver Cancer,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6c00>,High,High,Positive
+Lung Cancer,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6c60>,High,High,Positive
+Lung Cancer,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6cc0>,Normal,High,Positive
+Mumps,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6d20>,Normal,High,Positive
+Mumps,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6d80>,Normal,High,Positive
+Osteoporosis,Female,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6de0>,High,High,Positive
+Stroke,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6e40>,High,High,Positive
+Alzheimer's Disease,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6ea0>,High,Normal,Negative
+Alzheimer's Disease,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6f00>,High,Normal,Negative
+Cholecystitis,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e6f60>,Normal,Normal,Negative
+Chronic Obstructive Pulmonary Disease (COPD),Male,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e6fc0>,Normal,High,Negative
+Chronic Obstructive Pulmonary Disease (COPD),Male,No,Yes,Yes,Yes,<phe.paillier.EncryptedNumber object at 0x73c8873e7020>,Normal,High,Negative
+Osteoporosis,Male,Yes,No,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7080>,Normal,Normal,Negative
+Parkinson's Disease,Male,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e70e0>,Normal,Normal,Negative
+Prostate Cancer,Male,Yes,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7140>,High,Normal,Negative
+Schizophrenia,Male,No,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e71a0>,Normal,Normal,Negative
+Gout,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7200>,Normal,High,Positive
+Migraine,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7260>,Normal,Normal,Positive
+Stroke,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e72c0>,Normal,High,Positive
+Stroke,Male,No,Yes,No,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7320>,Normal,High,Positive
+Testicular Cancer,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7380>,High,High,Positive
+Tonsillitis,Female,Yes,Yes,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e73e0>,High,High,Positive
+Williams Syndrome,Female,No,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7440>,Normal,Normal,Positive
+Stroke,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e74a0>,High,High,Positive
+Stroke,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7500>,High,High,Positive
+Stroke,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7560>,High,High,Positive
+Stroke,Male,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e75c0>,High,High,Positive
+Stroke,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7620>,High,High,Positive
+Stroke,Female,Yes,No,Yes,No,<phe.paillier.EncryptedNumber object at 0x73c8873e7680>,High,High,Positive

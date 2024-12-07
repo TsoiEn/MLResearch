@@ -1,350 +1,350 @@
-Disease,Fever,Cough,Fatigue,Difficulty Breathing,Age,Gender,Blood Pressure,Cholesterol Level,Outcome Variable
-Influenza,1,0,1,1,19,2,1,1.0,Positive
-Common Cold,0,1,1,0,25,2,2,1.0,Negative
-Eczema,0,1,1,0,25,2,2,1.0,Negative
-Asthma,1,1,0,1,25,1,2,1.0,Positive
-Asthma,1,1,0,1,25,1,2,1.0,Positive
-Eczema,1,0,0,0,25,2,2,1.0,Positive
-Influenza,1,1,1,1,25,2,2,1.0,Positive
-Influenza,1,1,1,1,25,2,2,1.0,Positive
-Hyperthyroidism,0,1,0,0,28,2,2,1.0,Negative
-Hyperthyroidism,0,1,0,0,28,2,2,1.0,Negative
-Asthma,1,0,0,1,28,1,3,1.0,Positive
-Allergic Rhinitis,0,1,1,0,29,2,2,0.0,Negative
-Anxiety Disorders,0,1,0,0,29,2,2,2.0,Negative
-Common Cold,0,0,0,0,29,2,1,1.0,Negative
-Diabetes,0,0,0,0,29,1,1,1.0,Negative
-Gastroenteritis,0,1,0,0,29,2,2,1.0,Negative
-Pancreatitis,1,0,0,0,29,2,3,1.0,Negative
-Rheumatoid Arthritis,0,1,1,1,29,2,3,2.0,Negative
-Depression,1,1,1,1,29,1,3,1.0,Positive
-Liver Cancer,1,1,1,1,29,2,2,1.0,Positive
-Stroke,1,1,1,1,29,2,2,1.0,Positive
-Urinary Tract Infection,1,1,1,0,29,1,3,2.0,Positive
-Dengue Fever,1,0,1,0,30,2,2,1.0,Negative
-Dengue Fever,1,0,1,0,30,2,2,1.0,Negative
-Eczema,0,1,1,0,30,1,3,2.0,Negative
-Gastroenteritis,1,1,1,0,30,1,3,2.0,Negative
-Hepatitis,1,1,1,1,30,1,3,1.0,Negative
-Kidney Cancer,0,0,1,0,30,1,2,1.0,Negative
-Migraine,1,0,0,0,30,2,2,1.0,Negative
-Migraine,0,1,1,0,30,2,2,1.0,Negative
-Muscular Dystrophy,0,0,1,0,30,1,3,2.0,Negative
-Sinusitis,0,1,1,0,30,1,2,1.0,Negative
-Ulcerative Colitis,1,1,0,0,30,2,2,1.0,Negative
-Ulcerative Colitis,0,1,1,0,30,2,2,1.0,Negative
-Asthma,1,1,0,1,30,2,2,1.0,Positive
-Asthma,1,1,0,1,30,2,2,1.0,Positive
-Asthma,1,1,1,1,30,2,2,1.0,Positive
-Bipolar Disorder,0,0,1,0,30,2,3,2.0,Positive
-Bronchitis,1,1,0,1,30,2,1,1.0,Positive
-Bronchitis,1,1,1,1,30,1,3,2.0,Positive
-Bronchitis,1,1,1,1,30,1,3,2.0,Positive
-Cerebral Palsy,0,0,1,1,30,2,2,1.0,Positive
-Colorectal Cancer,0,0,1,0,30,2,2,2.0,Positive
-Eczema,1,0,0,0,30,1,3,2.0,Positive
-Hypertensive Heart Disease,0,0,1,0,30,2,3,2.0,Positive
-Influenza,1,1,1,0,30,1,3,1.0,Positive
-Influenza,1,1,1,1,30,2,2,1.0,Positive
-Multiple Sclerosis,0,0,1,0,30,2,3,2.0,Positive
-Myocardial Infarction (Heart...,1,1,1,1,30,2,3,2.0,Positive
-Urinary Tract Infection (UTI),1,0,0,0,30,2,2,1.0,Positive
-Asthma,0,0,0,1,31,1,2,0.0,Negative
-Osteoporosis,0,0,0,1,31,1,1,1.0,Negative
-Common Cold,1,0,1,1,31,1,3,2.0,Positive
-Migraine,1,0,0,0,31,2,2,1.0,Positive
-Pneumonia,1,0,1,1,32,2,3,1.0,Positive
-Allergic Rhinitis,0,0,1,0,35,2,2,0.0,Negative
-Asthma,0,1,1,1,35,2,2,2.0,Negative
-Asthma,1,1,1,1,35,2,2,1.0,Negative
-Asthma,0,1,1,1,35,2,3,1.0,Negative
-Asthma,0,1,1,1,35,2,3,1.0,Negative
-Atherosclerosis,0,0,1,0,35,1,2,1.0,Negative
-Chronic Obstructive Pulmonary...,1,1,1,1,35,1,2,1.0,Negative
-Common Cold,1,1,1,0,35,1,3,1.0,Negative
-Eczema,0,1,0,0,35,1,3,1.0,Negative
-Epilepsy,0,0,1,0,35,1,3,2.0,Negative
-Hypertension,1,1,1,0,35,2,3,1.0,Negative
-Hyperthyroidism,1,1,1,0,35,2,2,1.0,Negative
-Obsessive-Compulsive Disorde...,0,0,1,0,35,1,2,1.0,Negative
-Pneumonia,1,1,1,1,35,2,2,1.0,Negative
-Pneumonia,1,1,1,1,35,2,2,1.0,Negative
-Psoriasis,1,0,0,0,35,2,2,0.0,Negative
-Psoriasis,0,1,1,0,35,2,2,0.0,Negative
-Rubella,1,0,1,0,35,2,3,1.0,Negative
-Rubella,1,0,1,0,35,2,3,1.0,Negative
-Urinary Tract Infection (UTI),0,1,1,0,35,1,3,2.0,Negative
-Asthma,1,1,0,1,35,1,2,1.0,Positive
-Asthma,1,1,0,1,35,1,2,1.0,Positive
-Cirrhosis,0,0,1,0,35,2,2,2.0,Positive
-Conjunctivitis (Pink Eye),0,1,0,0,35,2,3,2.0,Positive
-Depression,0,0,1,0,35,2,2,2.0,Positive
-Gastroenteritis,1,0,1,1,35,1,1,2.0,Positive
-Hyperthyroidism,1,1,1,0,35,1,3,2.0,Positive
-Hyperthyroidism,1,1,1,0,35,1,3,2.0,Positive
-Kidney Cancer,0,0,1,0,35,1,3,2.0,Positive
-Liver Cancer,0,0,1,0,35,2,3,2.0,Positive
-Liver Disease,0,0,1,0,35,1,3,2.0,Positive
-Malaria,1,0,0,0,35,1,3,2.0,Positive
-Malaria,1,0,0,0,35,1,3,2.0,Positive
-Migraine,0,1,1,0,35,1,3,2.0,Positive
-Migraine,1,0,0,0,35,1,3,2.0,Positive
-Pancreatitis,0,0,1,0,35,1,2,2.0,Positive
-Rheumatoid Arthritis,1,1,1,0,35,1,2,0.0,Positive
-Rheumatoid Arthritis,0,0,1,0,35,2,2,0.0,Positive
-Spina Bifida,0,0,1,0,35,2,2,1.0,Positive
-Ulcerative Colitis,0,0,1,0,35,1,3,2.0,Positive
-Ulcerative Colitis,1,0,0,0,35,1,3,2.0,Positive
-Urinary Tract Infection,1,0,1,0,35,2,2,2.0,Positive
-Allergic Rhinitis,0,1,0,0,38,2,1,1.0,Negative
-Depression,0,0,0,0,38,2,2,2.0,Negative
-Gastroenteritis,0,0,0,0,38,1,2,0.0,Negative
-Influenza,0,0,0,0,38,1,2,1.0,Negative
-Kidney Disease,0,0,1,0,38,2,1,1.0,Negative
-Liver Cancer,1,1,0,0,38,2,3,1.0,Negative
-Liver Disease,0,1,0,1,38,1,1,1.0,Negative
-Osteoporosis,0,1,0,0,38,2,2,2.0,Negative
-Stroke,1,1,0,0,38,2,3,1.0,Negative
-Anxiety Disorders,1,0,1,1,38,1,3,2.0,Positive
-Diabetes,1,0,1,1,38,1,3,0.0,Positive
-Migraine,1,1,0,0,38,1,3,2.0,Positive
-Osteoarthritis,1,1,1,0,38,1,3,2.0,Positive
-Pneumonia,1,1,1,1,38,1,2,1.0,Positive
-Klinefelter Syndrome,0,0,1,0,39,2,2,1.0,Positive
-Acne,0,0,1,0,40,1,2,1.0,Negative
-Brain Tumor,0,0,1,0,40,1,2,1.0,Negative
-Bronchitis,0,1,0,1,40,2,2,1.0,Negative
-Cystic Fibrosis,0,0,1,1,40,1,3,2.0,Negative
-Diabetes,1,0,0,0,40,2,3,2.0,Negative
-Glaucoma,0,0,1,0,40,1,3,1.0,Negative
-Osteoarthritis,0,0,1,0,40,1,3,1.0,Negative
-Rabies,1,1,0,0,40,2,3,1.0,Negative
-Rabies,1,1,0,0,40,2,3,1.0,Negative
-Asthma,1,0,1,0,40,1,1,1.0,Positive
-Asthma,1,1,0,1,40,2,2,1.0,Positive
-Asthma,1,1,0,1,40,2,2,1.0,Positive
-Asthma,0,0,1,1,40,1,3,2.0,Positive
-Asthma,1,0,1,1,40,1,2,2.0,Positive
-Asthma,1,0,1,1,40,1,2,2.0,Positive
-Chickenpox,0,1,0,0,40,1,2,2.0,Positive
-Chickenpox,0,1,0,0,40,1,2,2.0,Positive
-Coronary Artery Disease,0,0,1,0,40,2,3,2.0,Positive
-"Eating Disorders (Anorexia,...",0,0,1,0,40,2,3,2.0,Positive
-Fibromyalgia,0,0,1,0,40,2,3,2.0,Positive
-Gastroenteritis,1,1,1,0,40,1,3,2.0,Positive
-Hemophilia,0,0,1,0,40,2,2,1.0,Positive
-Hyperthyroidism,0,0,1,0,40,1,3,2.0,Positive
-Hypoglycemia,0,0,1,0,40,2,3,2.0,Positive
-Lymphoma,0,1,0,0,40,2,2,2.0,Positive
-Pneumonia,1,1,1,1,40,2,2,2.0,Positive
-Psoriasis,0,1,1,0,40,1,3,1.0,Positive
-Psoriasis,1,0,0,0,40,1,3,1.0,Positive
-Psoriasis,0,1,0,0,40,2,2,2.0,Positive
-Tuberculosis,1,1,1,1,40,1,3,2.0,Positive
-Tuberculosis,1,1,1,1,40,1,3,2.0,Positive
-Anxiety Disorders,0,0,0,0,42,1,1,1.0,Negative
-Common Cold,1,1,0,0,42,2,3,2.0,Negative
-Depression,1,0,0,1,42,1,3,1.0,Negative
-Influenza,0,1,0,0,42,2,2,2.0,Negative
-Kidney Cancer,1,0,0,0,42,2,2,1.0,Negative
-Liver Cancer,1,0,1,1,42,1,2,0.0,Negative
-Liver Disease,1,0,0,1,42,2,2,1.0,Negative
-Lung Cancer,1,0,1,1,42,1,2,0.0,Negative
-Migraine,1,1,1,0,42,1,3,2.0,Negative
-Osteoarthritis,0,0,1,0,42,1,2,0.0,Negative
-Stroke,1,0,1,0,42,1,2,0.0,Negative
-Urinary Tract Infection,0,1,1,1,42,2,2,0.0,Negative
-Diabetes,1,1,1,0,42,1,3,1.0,Positive
-Hypothyroidism,1,1,1,0,42,2,3,2.0,Positive
-Hypothyroidism,1,1,1,0,42,2,3,2.0,Positive
-Kidney Disease,1,0,1,0,42,2,3,0.0,Positive
-Pneumonia,0,1,1,1,43,2,3,1.0,Positive
-Allergic Rhinitis,0,1,1,0,45,1,3,1.0,Negative
-Autism Spectrum Disorder (ASD),0,0,1,0,45,1,2,1.0,Negative
-Crohn's Disease,1,0,1,0,45,1,3,1.0,Negative
-Hepatitis,1,0,1,0,45,2,3,2.0,Negative
-Hepatitis,1,0,1,0,45,2,3,2.0,Negative
-Hyperglycemia,0,0,1,0,45,1,2,1.0,Negative
-Kidney Cancer,0,1,1,1,45,1,2,0.0,Negative
-Kidney Disease,1,1,0,0,45,1,2,2.0,Negative
-Melanoma,1,0,1,0,45,1,3,1.0,Negative
-Migraine,0,0,0,0,45,2,1,1.0,Negative
-Ovarian Cancer,0,0,1,0,45,1,2,1.0,Negative
-Pancreatitis,0,1,1,1,45,1,2,0.0,Negative
-Rheumatoid Arthritis,1,0,0,0,45,1,2,1.0,Negative
-Stroke,0,0,1,0,45,1,2,1.0,Negative
-Turner Syndrome,0,0,1,0,45,1,3,2.0,Negative
-Turner Syndrome,0,0,1,0,45,1,3,2.0,Negative
-Urinary Tract Infection,0,0,0,0,45,2,1,1.0,Negative
-Zika Virus,0,1,1,0,45,2,3,2.0,Negative
-Zika Virus,0,1,1,0,45,2,3,2.0,Negative
-Allergic Rhinitis,1,1,1,0,45,1,3,1.0,Positive
-Anxiety Disorders,1,1,1,0,45,1,3,1.0,Positive
-Asthma,1,1,0,1,45,1,2,1.0,Positive
-Asthma,1,1,0,1,45,1,2,1.0,Positive
-Cataracts,0,0,1,0,45,2,2,2.0,Positive
-Crohn's Disease,0,0,1,0,45,2,3,2.0,Positive
-Crohn's Disease,1,1,1,0,45,2,3,2.0,Positive
-Depression,0,0,1,0,45,2,3,2.0,Positive
-Diabetes,1,0,1,0,45,2,3,2.0,Positive
-Diabetes,0,1,1,0,45,1,2,2.0,Positive
-Hypertension,1,0,1,0,45,1,2,2.0,Positive
-Hypothyroidism,0,0,1,0,45,2,3,2.0,Positive
-Liver Disease,1,1,1,0,45,2,2,2.0,Positive
-Multiple Sclerosis,1,0,0,0,45,2,3,2.0,Positive
-Multiple Sclerosis,1,0,0,0,45,2,3,2.0,Positive
-Osteoarthritis,1,0,1,1,45,1,3,1.0,Positive
-Osteoporosis,1,1,1,0,45,2,2,2.0,Positive
-Pneumocystis Pneumonia (PCP),1,1,1,0,45,2,3,2.0,Positive
-Pneumonia,1,1,1,1,45,1,3,2.0,Positive
-Scoliosis,0,0,0,0,45,2,3,2.0,Positive
-Sickle Cell Anemia,0,0,1,0,45,2,2,1.0,Positive
-Tetanus,0,0,1,0,45,1,2,2.0,Positive
-Tetanus,0,0,1,0,45,1,2,2.0,Positive
-Hypertension,0,0,0,0,48,2,1,2.0,Negative
-Hypothyroidism,0,0,1,0,48,1,2,2.0,Negative
-Hypothyroidism,0,0,1,0,48,1,2,2.0,Negative
-Allergic Rhinitis,1,0,0,0,50,1,3,2.0,Negative
-Anemia,0,0,1,0,50,1,2,1.0,Negative
-Anxiety Disorders,0,0,1,0,50,1,2,1.0,Negative
-Cholera,1,0,1,1,50,2,3,2.0,Negative
-Cholera,1,0,1,1,50,2,3,2.0,Negative
-Crohn's Disease,1,1,1,0,50,1,2,2.0,Negative
-Crohn's Disease,0,0,1,0,50,1,2,2.0,Negative
-Depression,0,1,1,0,50,2,1,0.0,Negative
-Diabetes,0,1,0,0,50,1,2,2.0,Negative
-Endometriosis,1,0,0,0,50,1,3,1.0,Negative
-Hypertension,0,1,0,0,50,2,2,0.0,Negative
-Hypothyroidism,1,1,1,0,50,1,2,2.0,Negative
-Kidney Cancer,0,1,0,0,50,1,1,2.0,Negative
-Kidney Disease,0,1,0,1,50,1,2,1.0,Negative
-Pancreatitis,0,1,0,0,50,1,1,2.0,Negative
-Rheumatoid Arthritis,0,1,0,0,50,2,1,1.0,Negative
-Sepsis,1,1,1,0,50,1,2,1.0,Negative
-Sleep Apnea,1,0,1,1,50,1,3,2.0,Negative
-Urinary Tract Infection,1,1,0,1,50,1,3,1.0,Negative
-Asthma,1,1,1,1,50,2,2,2.0,Positive
-Bronchitis,1,1,1,1,50,1,3,2.0,Positive
-Down Syndrome,0,0,1,0,50,2,3,2.0,Positive
-Ebola Virus,1,1,1,1,50,1,2,1.0,Positive
-Ebola Virus,1,1,1,1,50,1,2,1.0,Positive
-Eczema,0,1,0,0,50,2,3,2.0,Positive
-Gastroenteritis,1,1,1,1,50,2,3,1.0,Positive
-Klinefelter Syndrome,0,0,1,0,50,2,2,1.0,Positive
-Liver Cancer,0,1,1,1,50,1,3,2.0,Positive
-Lyme Disease,1,0,0,0,50,1,2,2.0,Positive
-Lyme Disease,1,0,0,0,50,1,2,2.0,Positive
-Pancreatic Cancer,0,0,1,0,50,2,3,2.0,Positive
-Pneumothorax,0,0,1,1,50,2,3,2.0,Positive
-Stroke,0,1,1,1,50,1,3,2.0,Positive
-Ulcerative Colitis,0,1,1,0,50,2,2,2.0,Positive
-Hypertension,1,1,0,0,52,1,2,0.0,Negative
-Multiple Sclerosis,0,1,1,0,52,1,2,1.0,Negative
-Multiple Sclerosis,0,1,1,0,52,1,2,1.0,Negative
-Appendicitis,1,0,1,0,55,1,2,1.0,Negative
-Bronchitis,0,0,1,1,55,1,3,2.0,Negative
-Bronchitis,1,1,1,1,55,1,3,1.0,Negative
-Common Cold,1,0,1,1,55,1,2,0.0,Negative
-Diabetes,0,1,0,0,55,2,2,2.0,Negative
-Esophageal Cancer,0,0,1,0,55,1,2,1.0,Negative
-HIV/AIDS,1,0,0,0,55,2,3,2.0,Negative
-HIV/AIDS,1,0,0,0,55,2,3,2.0,Negative
-Hypertension,0,1,0,0,55,2,2,0.0,Negative
-Liver Disease,0,1,1,0,55,1,3,0.0,Negative
-Marfan Syndrome,0,0,1,0,55,1,3,2.0,Negative
-Migraine,0,1,1,1,55,2,2,0.0,Negative
-Osteoporosis,0,0,1,0,55,1,3,1.0,Negative
-Parkinson's Disease,0,0,1,0,55,2,2,0.0,Negative
-Parkinson's Disease,0,0,1,0,55,2,2,0.0,Negative
-Anxiety Disorders,1,1,0,0,55,2,2,0.0,Positive
-Coronary Artery Disease,0,0,1,0,55,2,2,1.0,Positive
-Coronary Artery Disease,0,0,1,0,55,2,2,1.0,Positive
-Hemorrhoids,0,0,0,0,55,2,3,2.0,Positive
-Hypertension,1,0,1,0,55,1,3,1.0,Positive
-Hypothyroidism,0,0,1,0,55,2,3,2.0,Positive
-Osteoarthritis,1,1,0,0,55,2,3,2.0,Positive
-Osteoporosis,1,0,1,1,55,1,3,0.0,Positive
-Osteoporosis,0,1,1,0,55,2,2,1.0,Positive
-Osteoporosis,1,0,1,0,55,2,2,1.0,Positive
-Osteoporosis,1,0,1,0,55,2,2,1.0,Positive
-Polycystic Ovary Syndrome (PCOS),1,1,0,0,55,2,2,1.0,Positive
-Systemic Lupus Erythematosus...,0,1,1,0,55,2,3,2.0,Positive
-Typhoid Fever,0,1,0,0,55,1,2,0.0,Positive
-Typhoid Fever,0,1,0,0,55,1,2,0.0,Positive
-Influenza,1,1,1,1,56,1,3,2.0,Positive
-Pneumonia,1,1,0,1,57,1,2,2.0,Negative
-Breast Cancer,0,0,1,0,60,1,3,2.0,Negative
-Coronary Artery Disease,1,1,0,0,60,1,3,2.0,Negative
-Coronary Artery Disease,1,1,0,0,60,1,3,2.0,Negative
-Hyperthyroidism,0,0,1,0,60,1,2,1.0,Negative
-Measles,1,1,0,0,60,2,3,1.0,Negative
-Measles,1,1,0,0,60,2,3,1.0,Negative
-Osteoarthritis,0,1,0,1,60,2,2,1.0,Negative
-Osteomyelitis,0,0,1,0,60,1,2,1.0,Negative
-Osteoporosis,1,0,0,0,60,1,3,2.0,Negative
-Osteoporosis,0,1,0,0,60,1,3,2.0,Negative
-Osteoporosis,0,1,0,0,60,1,3,2.0,Negative
-Polio,1,1,1,0,60,1,2,1.0,Negative
-Asthma,1,1,1,1,60,2,3,2.0,Positive
-Chronic Kidney Disease,0,0,1,0,60,2,2,2.0,Positive
-Hemophilia,0,0,1,0,60,2,2,1.0,Positive
-Hepatitis B,0,1,1,0,60,1,2,0.0,Positive
-Hepatitis B,0,1,1,0,60,1,2,0.0,Positive
-Hypertension,0,0,1,0,60,2,3,1.0,Positive
-Hypertension,1,0,1,0,60,1,3,1.0,Positive
-Hypertension,0,0,0,0,60,2,3,2.0,Positive
-Kidney Cancer,1,1,1,0,60,2,3,1.0,Positive
-Kidney Disease,1,1,1,1,60,2,3,2.0,Positive
-Osteoporosis,1,0,1,0,60,1,3,1.0,Positive
-Pancreatitis,1,1,1,0,60,2,3,1.0,Positive
-Parkinson's Disease,1,1,0,0,60,1,3,1.0,Positive
-Parkinson's Disease,1,1,0,0,60,1,3,1.0,Positive
-Prader-Willi Syndrome,0,0,1,0,60,2,2,1.0,Positive
-Rheumatoid Arthritis,0,0,1,0,60,2,3,2.0,Positive
-Thyroid Cancer,0,0,1,0,60,2,3,2.0,Positive
-Tuberculosis,1,1,1,0,60,2,3,2.0,Positive
-Bladder Cancer,0,0,1,0,65,1,2,1.0,Negative
-Diabetes,0,0,1,0,65,1,2,2.0,Negative
-Otitis Media (Ear Infection),1,1,1,0,65,1,2,1.0,Negative
-Stroke,1,0,1,0,65,2,3,0.0,Negative
-Stroke,1,0,1,0,65,2,3,0.0,Negative
-Tourette Syndrome,0,0,1,0,65,1,3,2.0,Negative
-Urinary Tract Infection (UTI),1,0,1,0,65,1,3,1.0,Negative
-Alzheimer's Disease,0,1,0,0,65,1,2,2.0,Positive
-Alzheimer's Disease,0,1,0,0,65,1,2,2.0,Positive
-Alzheimer's Disease,0,0,1,0,65,2,3,2.0,Positive
-Bronchitis,1,0,1,1,65,1,3,2.0,Positive
-Chronic Obstructive Pulmonary Disease (COPD),1,0,1,1,65,2,3,2.0,Positive
-Chronic Obstructive Pulmonary Disease (COPD),1,0,1,1,65,2,3,2.0,Positive
-Dementia,0,0,1,0,65,2,3,2.0,Positive
-Diabetes,1,1,1,0,65,2,2,2.0,Positive
-Diverticulitis,0,0,1,0,65,2,3,2.0,Positive
-Liver Cancer,1,1,1,0,65,2,3,2.0,Positive
-Lung Cancer,1,1,1,0,65,2,3,2.0,Positive
-Lung Cancer,1,0,1,0,65,2,2,2.0,Positive
-Mumps,0,0,1,0,65,1,2,2.0,Positive
-Mumps,0,0,1,0,65,1,2,2.0,Positive
-Osteoporosis,0,1,1,0,65,2,3,2.0,Positive
-Stroke,1,1,1,0,65,2,3,2.0,Positive
-Alzheimer's Disease,1,0,1,0,70,2,3,1.0,Negative
-Alzheimer's Disease,1,0,1,0,70,2,3,1.0,Negative
-Cholecystitis,0,0,1,0,70,1,2,1.0,Negative
-Chronic Obstructive Pulmonary Disease (COPD),0,1,1,1,70,1,2,2.0,Negative
-Chronic Obstructive Pulmonary Disease (COPD),0,1,1,1,70,1,2,2.0,Negative
-Osteoporosis,1,0,0,0,70,1,2,1.0,Negative
-Parkinson's Disease,0,0,1,0,70,1,2,1.0,Negative
-Prostate Cancer,1,1,0,0,70,1,3,1.0,Negative
-Schizophrenia,0,1,1,0,70,1,2,1.0,Negative
-Gout,1,0,1,0,70,2,2,2.0,Positive
-Migraine,0,0,1,0,70,2,2,1.0,Positive
-Stroke,0,1,0,0,70,1,2,2.0,Positive
-Stroke,0,1,0,0,70,1,2,2.0,Positive
-Testicular Cancer,0,0,1,0,70,2,3,2.0,Positive
-Tonsillitis,1,1,1,0,70,2,3,2.0,Positive
-Williams Syndrome,0,0,1,0,70,2,2,1.0,Positive
-Stroke,1,0,1,0,80,2,3,2.0,Positive
-Stroke,1,0,1,0,80,2,3,2.0,Positive
-Stroke,1,0,1,0,85,1,3,2.0,Positive
-Stroke,1,0,1,0,85,1,3,2.0,Positive
-Stroke,1,0,1,0,90,2,3,2.0,Positive
-Stroke,1,0,1,0,90,2,3,2.0,Positive
+Disease,Gender,Fever,Cough,Fatigue,Difficulty Breathing,Age,Blood Pressure,Cholesterol Level,Outcome Variable
+Influenza,2,1,0,1,1,19,1,1.0,Positive
+Common Cold,2,0,1,1,0,25,2,1.0,Negative
+Eczema,2,0,1,1,0,25,2,1.0,Negative
+Asthma,1,1,1,0,1,25,2,1.0,Positive
+Asthma,1,1,1,0,1,25,2,1.0,Positive
+Eczema,2,1,0,0,0,25,2,1.0,Positive
+Influenza,2,1,1,1,1,25,2,1.0,Positive
+Influenza,2,1,1,1,1,25,2,1.0,Positive
+Hyperthyroidism,2,0,1,0,0,28,2,1.0,Negative
+Hyperthyroidism,2,0,1,0,0,28,2,1.0,Negative
+Asthma,1,1,0,0,1,28,3,1.0,Positive
+Allergic Rhinitis,2,0,1,1,0,29,2,0.0,Negative
+Anxiety Disorders,2,0,1,0,0,29,2,2.0,Negative
+Common Cold,2,0,0,0,0,29,1,1.0,Negative
+Diabetes,1,0,0,0,0,29,1,1.0,Negative
+Gastroenteritis,2,0,1,0,0,29,2,1.0,Negative
+Pancreatitis,2,1,0,0,0,29,3,1.0,Negative
+Rheumatoid Arthritis,2,0,1,1,1,29,3,2.0,Negative
+Depression,1,1,1,1,1,29,3,1.0,Positive
+Liver Cancer,2,1,1,1,1,29,2,1.0,Positive
+Stroke,2,1,1,1,1,29,2,1.0,Positive
+Urinary Tract Infection,1,1,1,1,0,29,3,2.0,Positive
+Dengue Fever,2,1,0,1,0,30,2,1.0,Negative
+Dengue Fever,2,1,0,1,0,30,2,1.0,Negative
+Eczema,1,0,1,1,0,30,3,2.0,Negative
+Gastroenteritis,1,1,1,1,0,30,3,2.0,Negative
+Hepatitis,1,1,1,1,1,30,3,1.0,Negative
+Kidney Cancer,1,0,0,1,0,30,2,1.0,Negative
+Migraine,2,1,0,0,0,30,2,1.0,Negative
+Migraine,2,0,1,1,0,30,2,1.0,Negative
+Muscular Dystrophy,1,0,0,1,0,30,3,2.0,Negative
+Sinusitis,1,0,1,1,0,30,2,1.0,Negative
+Ulcerative Colitis,2,1,1,0,0,30,2,1.0,Negative
+Ulcerative Colitis,2,0,1,1,0,30,2,1.0,Negative
+Asthma,2,1,1,0,1,30,2,1.0,Positive
+Asthma,2,1,1,0,1,30,2,1.0,Positive
+Asthma,2,1,1,1,1,30,2,1.0,Positive
+Bipolar Disorder,2,0,0,1,0,30,3,2.0,Positive
+Bronchitis,2,1,1,0,1,30,1,1.0,Positive
+Bronchitis,1,1,1,1,1,30,3,2.0,Positive
+Bronchitis,1,1,1,1,1,30,3,2.0,Positive
+Cerebral Palsy,2,0,0,1,1,30,2,1.0,Positive
+Colorectal Cancer,2,0,0,1,0,30,2,2.0,Positive
+Eczema,1,1,0,0,0,30,3,2.0,Positive
+Hypertensive Heart Disease,2,0,0,1,0,30,3,2.0,Positive
+Influenza,1,1,1,1,0,30,3,1.0,Positive
+Influenza,2,1,1,1,1,30,2,1.0,Positive
+Multiple Sclerosis,2,0,0,1,0,30,3,2.0,Positive
+Myocardial Infarction (Heart...,2,1,1,1,1,30,3,2.0,Positive
+Urinary Tract Infection (UTI),2,1,0,0,0,30,2,1.0,Positive
+Asthma,1,0,0,0,1,31,2,0.0,Negative
+Osteoporosis,1,0,0,0,1,31,1,1.0,Negative
+Common Cold,1,1,0,1,1,31,3,2.0,Positive
+Migraine,2,1,0,0,0,31,2,1.0,Positive
+Pneumonia,2,1,0,1,1,32,3,1.0,Positive
+Allergic Rhinitis,2,0,0,1,0,35,2,0.0,Negative
+Asthma,2,0,1,1,1,35,2,2.0,Negative
+Asthma,2,1,1,1,1,35,2,1.0,Negative
+Asthma,2,0,1,1,1,35,3,1.0,Negative
+Asthma,2,0,1,1,1,35,3,1.0,Negative
+Atherosclerosis,1,0,0,1,0,35,2,1.0,Negative
+Chronic Obstructive Pulmonary...,1,1,1,1,1,35,2,1.0,Negative
+Common Cold,1,1,1,1,0,35,3,1.0,Negative
+Eczema,1,0,1,0,0,35,3,1.0,Negative
+Epilepsy,1,0,0,1,0,35,3,2.0,Negative
+Hypertension,2,1,1,1,0,35,3,1.0,Negative
+Hyperthyroidism,2,1,1,1,0,35,2,1.0,Negative
+Obsessive-Compulsive Disorde...,1,0,0,1,0,35,2,1.0,Negative
+Pneumonia,2,1,1,1,1,35,2,1.0,Negative
+Pneumonia,2,1,1,1,1,35,2,1.0,Negative
+Psoriasis,2,1,0,0,0,35,2,0.0,Negative
+Psoriasis,2,0,1,1,0,35,2,0.0,Negative
+Rubella,2,1,0,1,0,35,3,1.0,Negative
+Rubella,2,1,0,1,0,35,3,1.0,Negative
+Urinary Tract Infection (UTI),1,0,1,1,0,35,3,2.0,Negative
+Asthma,1,1,1,0,1,35,2,1.0,Positive
+Asthma,1,1,1,0,1,35,2,1.0,Positive
+Cirrhosis,2,0,0,1,0,35,2,2.0,Positive
+Conjunctivitis (Pink Eye),2,0,1,0,0,35,3,2.0,Positive
+Depression,2,0,0,1,0,35,2,2.0,Positive
+Gastroenteritis,1,1,0,1,1,35,1,2.0,Positive
+Hyperthyroidism,1,1,1,1,0,35,3,2.0,Positive
+Hyperthyroidism,1,1,1,1,0,35,3,2.0,Positive
+Kidney Cancer,1,0,0,1,0,35,3,2.0,Positive
+Liver Cancer,2,0,0,1,0,35,3,2.0,Positive
+Liver Disease,1,0,0,1,0,35,3,2.0,Positive
+Malaria,1,1,0,0,0,35,3,2.0,Positive
+Malaria,1,1,0,0,0,35,3,2.0,Positive
+Migraine,1,0,1,1,0,35,3,2.0,Positive
+Migraine,1,1,0,0,0,35,3,2.0,Positive
+Pancreatitis,1,0,0,1,0,35,2,2.0,Positive
+Rheumatoid Arthritis,1,1,1,1,0,35,2,0.0,Positive
+Rheumatoid Arthritis,2,0,0,1,0,35,2,0.0,Positive
+Spina Bifida,2,0,0,1,0,35,2,1.0,Positive
+Ulcerative Colitis,1,0,0,1,0,35,3,2.0,Positive
+Ulcerative Colitis,1,1,0,0,0,35,3,2.0,Positive
+Urinary Tract Infection,2,1,0,1,0,35,2,2.0,Positive
+Allergic Rhinitis,2,0,1,0,0,38,1,1.0,Negative
+Depression,2,0,0,0,0,38,2,2.0,Negative
+Gastroenteritis,1,0,0,0,0,38,2,0.0,Negative
+Influenza,1,0,0,0,0,38,2,1.0,Negative
+Kidney Disease,2,0,0,1,0,38,1,1.0,Negative
+Liver Cancer,2,1,1,0,0,38,3,1.0,Negative
+Liver Disease,1,0,1,0,1,38,1,1.0,Negative
+Osteoporosis,2,0,1,0,0,38,2,2.0,Negative
+Stroke,2,1,1,0,0,38,3,1.0,Negative
+Anxiety Disorders,1,1,0,1,1,38,3,2.0,Positive
+Diabetes,1,1,0,1,1,38,3,0.0,Positive
+Migraine,1,1,1,0,0,38,3,2.0,Positive
+Osteoarthritis,1,1,1,1,0,38,3,2.0,Positive
+Pneumonia,1,1,1,1,1,38,2,1.0,Positive
+Klinefelter Syndrome,2,0,0,1,0,39,2,1.0,Positive
+Acne,1,0,0,1,0,40,2,1.0,Negative
+Brain Tumor,1,0,0,1,0,40,2,1.0,Negative
+Bronchitis,2,0,1,0,1,40,2,1.0,Negative
+Cystic Fibrosis,1,0,0,1,1,40,3,2.0,Negative
+Diabetes,2,1,0,0,0,40,3,2.0,Negative
+Glaucoma,1,0,0,1,0,40,3,1.0,Negative
+Osteoarthritis,1,0,0,1,0,40,3,1.0,Negative
+Rabies,2,1,1,0,0,40,3,1.0,Negative
+Rabies,2,1,1,0,0,40,3,1.0,Negative
+Asthma,1,1,0,1,0,40,1,1.0,Positive
+Asthma,2,1,1,0,1,40,2,1.0,Positive
+Asthma,2,1,1,0,1,40,2,1.0,Positive
+Asthma,1,0,0,1,1,40,3,2.0,Positive
+Asthma,1,1,0,1,1,40,2,2.0,Positive
+Asthma,1,1,0,1,1,40,2,2.0,Positive
+Chickenpox,1,0,1,0,0,40,2,2.0,Positive
+Chickenpox,1,0,1,0,0,40,2,2.0,Positive
+Coronary Artery Disease,2,0,0,1,0,40,3,2.0,Positive
+"Eating Disorders (Anorexia,...",2,0,0,1,0,40,3,2.0,Positive
+Fibromyalgia,2,0,0,1,0,40,3,2.0,Positive
+Gastroenteritis,1,1,1,1,0,40,3,2.0,Positive
+Hemophilia,2,0,0,1,0,40,2,1.0,Positive
+Hyperthyroidism,1,0,0,1,0,40,3,2.0,Positive
+Hypoglycemia,2,0,0,1,0,40,3,2.0,Positive
+Lymphoma,2,0,1,0,0,40,2,2.0,Positive
+Pneumonia,2,1,1,1,1,40,2,2.0,Positive
+Psoriasis,1,0,1,1,0,40,3,1.0,Positive
+Psoriasis,1,1,0,0,0,40,3,1.0,Positive
+Psoriasis,2,0,1,0,0,40,2,2.0,Positive
+Tuberculosis,1,1,1,1,1,40,3,2.0,Positive
+Tuberculosis,1,1,1,1,1,40,3,2.0,Positive
+Anxiety Disorders,1,0,0,0,0,42,1,1.0,Negative
+Common Cold,2,1,1,0,0,42,3,2.0,Negative
+Depression,1,1,0,0,1,42,3,1.0,Negative
+Influenza,2,0,1,0,0,42,2,2.0,Negative
+Kidney Cancer,2,1,0,0,0,42,2,1.0,Negative
+Liver Cancer,1,1,0,1,1,42,2,0.0,Negative
+Liver Disease,2,1,0,0,1,42,2,1.0,Negative
+Lung Cancer,1,1,0,1,1,42,2,0.0,Negative
+Migraine,1,1,1,1,0,42,3,2.0,Negative
+Osteoarthritis,1,0,0,1,0,42,2,0.0,Negative
+Stroke,1,1,0,1,0,42,2,0.0,Negative
+Urinary Tract Infection,2,0,1,1,1,42,2,0.0,Negative
+Diabetes,1,1,1,1,0,42,3,1.0,Positive
+Hypothyroidism,2,1,1,1,0,42,3,2.0,Positive
+Hypothyroidism,2,1,1,1,0,42,3,2.0,Positive
+Kidney Disease,2,1,0,1,0,42,3,0.0,Positive
+Pneumonia,2,0,1,1,1,43,3,1.0,Positive
+Allergic Rhinitis,1,0,1,1,0,45,3,1.0,Negative
+Autism Spectrum Disorder (ASD),1,0,0,1,0,45,2,1.0,Negative
+Crohn's Disease,1,1,0,1,0,45,3,1.0,Negative
+Hepatitis,2,1,0,1,0,45,3,2.0,Negative
+Hepatitis,2,1,0,1,0,45,3,2.0,Negative
+Hyperglycemia,1,0,0,1,0,45,2,1.0,Negative
+Kidney Cancer,1,0,1,1,1,45,2,0.0,Negative
+Kidney Disease,1,1,1,0,0,45,2,2.0,Negative
+Melanoma,1,1,0,1,0,45,3,1.0,Negative
+Migraine,2,0,0,0,0,45,1,1.0,Negative
+Ovarian Cancer,1,0,0,1,0,45,2,1.0,Negative
+Pancreatitis,1,0,1,1,1,45,2,0.0,Negative
+Rheumatoid Arthritis,1,1,0,0,0,45,2,1.0,Negative
+Stroke,1,0,0,1,0,45,2,1.0,Negative
+Turner Syndrome,1,0,0,1,0,45,3,2.0,Negative
+Turner Syndrome,1,0,0,1,0,45,3,2.0,Negative
+Urinary Tract Infection,2,0,0,0,0,45,1,1.0,Negative
+Zika Virus,2,0,1,1,0,45,3,2.0,Negative
+Zika Virus,2,0,1,1,0,45,3,2.0,Negative
+Allergic Rhinitis,1,1,1,1,0,45,3,1.0,Positive
+Anxiety Disorders,1,1,1,1,0,45,3,1.0,Positive
+Asthma,1,1,1,0,1,45,2,1.0,Positive
+Asthma,1,1,1,0,1,45,2,1.0,Positive
+Cataracts,2,0,0,1,0,45,2,2.0,Positive
+Crohn's Disease,2,0,0,1,0,45,3,2.0,Positive
+Crohn's Disease,2,1,1,1,0,45,3,2.0,Positive
+Depression,2,0,0,1,0,45,3,2.0,Positive
+Diabetes,2,1,0,1,0,45,3,2.0,Positive
+Diabetes,1,0,1,1,0,45,2,2.0,Positive
+Hypertension,1,1,0,1,0,45,2,2.0,Positive
+Hypothyroidism,2,0,0,1,0,45,3,2.0,Positive
+Liver Disease,2,1,1,1,0,45,2,2.0,Positive
+Multiple Sclerosis,2,1,0,0,0,45,3,2.0,Positive
+Multiple Sclerosis,2,1,0,0,0,45,3,2.0,Positive
+Osteoarthritis,1,1,0,1,1,45,3,1.0,Positive
+Osteoporosis,2,1,1,1,0,45,2,2.0,Positive
+Pneumocystis Pneumonia (PCP),2,1,1,1,0,45,3,2.0,Positive
+Pneumonia,1,1,1,1,1,45,3,2.0,Positive
+Scoliosis,2,0,0,0,0,45,3,2.0,Positive
+Sickle Cell Anemia,2,0,0,1,0,45,2,1.0,Positive
+Tetanus,1,0,0,1,0,45,2,2.0,Positive
+Tetanus,1,0,0,1,0,45,2,2.0,Positive
+Hypertension,2,0,0,0,0,48,1,2.0,Negative
+Hypothyroidism,1,0,0,1,0,48,2,2.0,Negative
+Hypothyroidism,1,0,0,1,0,48,2,2.0,Negative
+Allergic Rhinitis,1,1,0,0,0,50,3,2.0,Negative
+Anemia,1,0,0,1,0,50,2,1.0,Negative
+Anxiety Disorders,1,0,0,1,0,50,2,1.0,Negative
+Cholera,2,1,0,1,1,50,3,2.0,Negative
+Cholera,2,1,0,1,1,50,3,2.0,Negative
+Crohn's Disease,1,1,1,1,0,50,2,2.0,Negative
+Crohn's Disease,1,0,0,1,0,50,2,2.0,Negative
+Depression,2,0,1,1,0,50,1,0.0,Negative
+Diabetes,1,0,1,0,0,50,2,2.0,Negative
+Endometriosis,1,1,0,0,0,50,3,1.0,Negative
+Hypertension,2,0,1,0,0,50,2,0.0,Negative
+Hypothyroidism,1,1,1,1,0,50,2,2.0,Negative
+Kidney Cancer,1,0,1,0,0,50,1,2.0,Negative
+Kidney Disease,1,0,1,0,1,50,2,1.0,Negative
+Pancreatitis,1,0,1,0,0,50,1,2.0,Negative
+Rheumatoid Arthritis,2,0,1,0,0,50,1,1.0,Negative
+Sepsis,1,1,1,1,0,50,2,1.0,Negative
+Sleep Apnea,1,1,0,1,1,50,3,2.0,Negative
+Urinary Tract Infection,1,1,1,0,1,50,3,1.0,Negative
+Asthma,2,1,1,1,1,50,2,2.0,Positive
+Bronchitis,1,1,1,1,1,50,3,2.0,Positive
+Down Syndrome,2,0,0,1,0,50,3,2.0,Positive
+Ebola Virus,1,1,1,1,1,50,2,1.0,Positive
+Ebola Virus,1,1,1,1,1,50,2,1.0,Positive
+Eczema,2,0,1,0,0,50,3,2.0,Positive
+Gastroenteritis,2,1,1,1,1,50,3,1.0,Positive
+Klinefelter Syndrome,2,0,0,1,0,50,2,1.0,Positive
+Liver Cancer,1,0,1,1,1,50,3,2.0,Positive
+Lyme Disease,1,1,0,0,0,50,2,2.0,Positive
+Lyme Disease,1,1,0,0,0,50,2,2.0,Positive
+Pancreatic Cancer,2,0,0,1,0,50,3,2.0,Positive
+Pneumothorax,2,0,0,1,1,50,3,2.0,Positive
+Stroke,1,0,1,1,1,50,3,2.0,Positive
+Ulcerative Colitis,2,0,1,1,0,50,2,2.0,Positive
+Hypertension,1,1,1,0,0,52,2,0.0,Negative
+Multiple Sclerosis,1,0,1,1,0,52,2,1.0,Negative
+Multiple Sclerosis,1,0,1,1,0,52,2,1.0,Negative
+Appendicitis,1,1,0,1,0,55,2,1.0,Negative
+Bronchitis,1,0,0,1,1,55,3,2.0,Negative
+Bronchitis,1,1,1,1,1,55,3,1.0,Negative
+Common Cold,1,1,0,1,1,55,2,0.0,Negative
+Diabetes,2,0,1,0,0,55,2,2.0,Negative
+Esophageal Cancer,1,0,0,1,0,55,2,1.0,Negative
+HIV/AIDS,2,1,0,0,0,55,3,2.0,Negative
+HIV/AIDS,2,1,0,0,0,55,3,2.0,Negative
+Hypertension,2,0,1,0,0,55,2,0.0,Negative
+Liver Disease,1,0,1,1,0,55,3,0.0,Negative
+Marfan Syndrome,1,0,0,1,0,55,3,2.0,Negative
+Migraine,2,0,1,1,1,55,2,0.0,Negative
+Osteoporosis,1,0,0,1,0,55,3,1.0,Negative
+Parkinson's Disease,2,0,0,1,0,55,2,0.0,Negative
+Parkinson's Disease,2,0,0,1,0,55,2,0.0,Negative
+Anxiety Disorders,2,1,1,0,0,55,2,0.0,Positive
+Coronary Artery Disease,2,0,0,1,0,55,2,1.0,Positive
+Coronary Artery Disease,2,0,0,1,0,55,2,1.0,Positive
+Hemorrhoids,2,0,0,0,0,55,3,2.0,Positive
+Hypertension,1,1,0,1,0,55,3,1.0,Positive
+Hypothyroidism,2,0,0,1,0,55,3,2.0,Positive
+Osteoarthritis,2,1,1,0,0,55,3,2.0,Positive
+Osteoporosis,1,1,0,1,1,55,3,0.0,Positive
+Osteoporosis,2,0,1,1,0,55,2,1.0,Positive
+Osteoporosis,2,1,0,1,0,55,2,1.0,Positive
+Osteoporosis,2,1,0,1,0,55,2,1.0,Positive
+Polycystic Ovary Syndrome (PCOS),2,1,1,0,0,55,2,1.0,Positive
+Systemic Lupus Erythematosus...,2,0,1,1,0,55,3,2.0,Positive
+Typhoid Fever,1,0,1,0,0,55,2,0.0,Positive
+Typhoid Fever,1,0,1,0,0,55,2,0.0,Positive
+Influenza,1,1,1,1,1,56,3,2.0,Positive
+Pneumonia,1,1,1,0,1,57,2,2.0,Negative
+Breast Cancer,1,0,0,1,0,60,3,2.0,Negative
+Coronary Artery Disease,1,1,1,0,0,60,3,2.0,Negative
+Coronary Artery Disease,1,1,1,0,0,60,3,2.0,Negative
+Hyperthyroidism,1,0,0,1,0,60,2,1.0,Negative
+Measles,2,1,1,0,0,60,3,1.0,Negative
+Measles,2,1,1,0,0,60,3,1.0,Negative
+Osteoarthritis,2,0,1,0,1,60,2,1.0,Negative
+Osteomyelitis,1,0,0,1,0,60,2,1.0,Negative
+Osteoporosis,1,1,0,0,0,60,3,2.0,Negative
+Osteoporosis,1,0,1,0,0,60,3,2.0,Negative
+Osteoporosis,1,0,1,0,0,60,3,2.0,Negative
+Polio,1,1,1,1,0,60,2,1.0,Negative
+Asthma,2,1,1,1,1,60,3,2.0,Positive
+Chronic Kidney Disease,2,0,0,1,0,60,2,2.0,Positive
+Hemophilia,2,0,0,1,0,60,2,1.0,Positive
+Hepatitis B,1,0,1,1,0,60,2,0.0,Positive
+Hepatitis B,1,0,1,1,0,60,2,0.0,Positive
+Hypertension,2,0,0,1,0,60,3,1.0,Positive
+Hypertension,1,1,0,1,0,60,3,1.0,Positive
+Hypertension,2,0,0,0,0,60,3,2.0,Positive
+Kidney Cancer,2,1,1,1,0,60,3,1.0,Positive
+Kidney Disease,2,1,1,1,1,60,3,2.0,Positive
+Osteoporosis,1,1,0,1,0,60,3,1.0,Positive
+Pancreatitis,2,1,1,1,0,60,3,1.0,Positive
+Parkinson's Disease,1,1,1,0,0,60,3,1.0,Positive
+Parkinson's Disease,1,1,1,0,0,60,3,1.0,Positive
+Prader-Willi Syndrome,2,0,0,1,0,60,2,1.0,Positive
+Rheumatoid Arthritis,2,0,0,1,0,60,3,2.0,Positive
+Thyroid Cancer,2,0,0,1,0,60,3,2.0,Positive
+Tuberculosis,2,1,1,1,0,60,3,2.0,Positive
+Bladder Cancer,1,0,0,1,0,65,2,1.0,Negative
+Diabetes,1,0,0,1,0,65,2,2.0,Negative
+Otitis Media (Ear Infection),1,1,1,1,0,65,2,1.0,Negative
+Stroke,2,1,0,1,0,65,3,0.0,Negative
+Stroke,2,1,0,1,0,65,3,0.0,Negative
+Tourette Syndrome,1,0,0,1,0,65,3,2.0,Negative
+Urinary Tract Infection (UTI),1,1,0,1,0,65,3,1.0,Negative
+Alzheimer's Disease,1,0,1,0,0,65,2,2.0,Positive
+Alzheimer's Disease,1,0,1,0,0,65,2,2.0,Positive
+Alzheimer's Disease,2,0,0,1,0,65,3,2.0,Positive
+Bronchitis,1,1,0,1,1,65,3,2.0,Positive
+Chronic Obstructive Pulmonary Disease (COPD),2,1,0,1,1,65,3,2.0,Positive
+Chronic Obstructive Pulmonary Disease (COPD),2,1,0,1,1,65,3,2.0,Positive
+Dementia,2,0,0,1,0,65,3,2.0,Positive
+Diabetes,2,1,1,1,0,65,2,2.0,Positive
+Diverticulitis,2,0,0,1,0,65,3,2.0,Positive
+Liver Cancer,2,1,1,1,0,65,3,2.0,Positive
+Lung Cancer,2,1,1,1,0,65,3,2.0,Positive
+Lung Cancer,2,1,0,1,0,65,2,2.0,Positive
+Mumps,1,0,0,1,0,65,2,2.0,Positive
+Mumps,1,0,0,1,0,65,2,2.0,Positive
+Osteoporosis,2,0,1,1,0,65,3,2.0,Positive
+Stroke,2,1,1,1,0,65,3,2.0,Positive
+Alzheimer's Disease,2,1,0,1,0,70,3,1.0,Negative
+Alzheimer's Disease,2,1,0,1,0,70,3,1.0,Negative
+Cholecystitis,1,0,0,1,0,70,2,1.0,Negative
+Chronic Obstructive Pulmonary Disease (COPD),1,0,1,1,1,70,2,2.0,Negative
+Chronic Obstructive Pulmonary Disease (COPD),1,0,1,1,1,70,2,2.0,Negative
+Osteoporosis,1,1,0,0,0,70,2,1.0,Negative
+Parkinson's Disease,1,0,0,1,0,70,2,1.0,Negative
+Prostate Cancer,1,1,1,0,0,70,3,1.0,Negative
+Schizophrenia,1,0,1,1,0,70,2,1.0,Negative
+Gout,2,1,0,1,0,70,2,2.0,Positive
+Migraine,2,0,0,1,0,70,2,1.0,Positive
+Stroke,1,0,1,0,0,70,2,2.0,Positive
+Stroke,1,0,1,0,0,70,2,2.0,Positive
+Testicular Cancer,2,0,0,1,0,70,3,2.0,Positive
+Tonsillitis,2,1,1,1,0,70,3,2.0,Positive
+Williams Syndrome,2,0,0,1,0,70,2,1.0,Positive
+Stroke,2,1,0,1,0,80,3,2.0,Positive
+Stroke,2,1,0,1,0,80,3,2.0,Positive
+Stroke,1,1,0,1,0,85,3,2.0,Positive
+Stroke,1,1,0,1,0,85,3,2.0,Positive
+Stroke,2,1,0,1,0,90,3,2.0,Positive
+Stroke,2,1,0,1,0,90,3,2.0,Positive
