@@ -182,3 +182,125 @@ This document outlines the step-by-step process to implement and integrate the b
 1. **Install Dependencies**:
    ```bash
    pip install -r backend/requirements.txt
+
+---
+### Updated Backend Workflow with MySQL
+
+#### 1. **Data Preparation**
+**Objective**: Replace CSV-based storage with MySQL.
+
+**Implementation**:
+   - Use MySQL to store the dataset. Create a `disease_data` table that mirrors the structure of your CSV file.
+   - Write a Python script (`data_utils.py`) to:
+      - Connect to the MySQL database using `mysql-connector-python` or `SQLAlchemy`.
+      - Load data from MySQL into a Pandas DataFrame.
+      - Save processed data back to the MySQL database.
+
+#### 2. **Encryption Module**
+**Objective**: Secure patient data while utilizing MySQL for storage.
+
+**Implementation**:
+   - Store encrypted data in the MySQL database:
+      - Encrypt sensitive fields (e.g., symptoms and outcomes) before inserting into the database.
+   - Write utility functions (`homomorphic_mysql.py`) to:
+      - Encrypt data before `INSERT`.
+      - Decrypt data after `SELECT`.
+
+#### 3. **Machine Learning Model**
+**Objective**: Use data from MySQL for model training and predictions.
+
+**Implementation**:
+   - Modify `ml_pipeline.py` to:
+      - Fetch training data from MySQL.
+      - Process and train the model as before.
+      - Save predictions back into the `disease_data` table (e.g., adding a `Predicted_Outcome` column).
+
+#### 4. **Blockchain Module**
+**Objective**: Use MySQL as a transaction log for blockchain records.
+
+**Implementation**:
+   - Store each transaction (e.g., encrypted symptom records) as a block in a `blockchain` table:
+      - Fields: `block_id`, `timestamp`, `data`, `previous_hash`, `current_hash`.
+   - Add functions in `blockchain.py` to:
+      - Retrieve blockchain data from MySQL.
+      - Validate and append new blocks to the chain.
+      - Persist the updated chain back to MySQL.
+
+#### 5. **Backend Workflow Integration**
+**Objective**: Connect all modules using MySQL as the central hub.
+
+**Implementation**:
+   - Update `main.py`:
+      - Fetch data from the `disease_data` table.
+      - Encrypt sensitive fields and insert into the `blockchain` table.
+      - Use the ML model to predict outcomes on encrypted data.
+      - Store predictions back into the `disease_data` table.
+      - Provide endpoints (via Flask/Django) for the admin to view or add new data.
+
+
+
+
+
+
+"""
+import mysql.connector
+
+# Database connection
+db = mysql.connector.connect(
+    host="localhost",
+    user="your_username",
+    password="your_password",
+    database="medichain_db"
+)
+
+cursor = db.cursor()
+
+# 1. Create
+def insert_data():
+    sql = """
+    INSERT INTO disease_data (
+        Disease, Gender, Fever, Cough, Fatigue, Difficulty_Breathing, Age, Blood_Pressure, Cholesterol_Level, Outcome_Variable, Predicted_Outcome
+    ) VALUES (
+        %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+    );
+    """
+    values = ('Influenza', 'Female', 'Yes', 'No', 'Yes', 'Yes', 19, 'Low', 'Normal', 'Positive', None)
+    cursor.execute(sql, values)
+    db.commit()
+    print(f"Inserted ID: {cursor.lastrowid}")
+
+# 2. Read
+def fetch_data():
+    cursor.execute("SELECT * FROM disease_data;")
+    records = cursor.fetchall()
+    for record in records:
+        print(record)
+
+# 3. Update
+def update_data():
+    sql = "UPDATE disease_data SET Predicted_Outcome = %s WHERE id = %s;"
+    values = ('Positive', 1)
+    cursor.execute(sql, values)
+    db.commit()
+    print(f"Updated rows: {cursor.rowcount}")
+
+# 4. Delete
+def delete_data():
+    sql = "DELETE FROM disease_data WHERE id = %s;"
+    value = (2,)
+    cursor.execute(sql, value)
+    db.commit()
+    print(f"Deleted rows: {cursor.rowcount}")
+
+# Call functions
+insert_data()
+fetch_data()
+update_data()
+delete_data()
+
+cursor.close()
+db.close()
+
+
+
+"""
