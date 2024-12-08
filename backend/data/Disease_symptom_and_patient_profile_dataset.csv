@@ -1,4 +1,4 @@
-Disease,Gender,Fever,Cough,Fatigue,Difficulty Breathing,Age,Blood Pressure,Cholesterol Level,Outcome Variable
+Disease,Gender,Fever,Cough,Fatigue,Difficulty_Breathing,Age,Blood_Pressure,Cholesterol_Level,Outcome_Variable
 Influenza,Female,Yes,No,Yes,Yes,19,Low,Normal,Positive
 Common Cold,Female,No,Yes,Yes,No,25,Normal,Normal,Negative
 Eczema,Female,No,Yes,Yes,No,25,Normal,Normal,Negative
