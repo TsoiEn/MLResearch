@@ -206,9 +206,6 @@ This document outlines the step-by-step process to implement and integrate the b
       - Encrypt data before `INSERT`.
       - Decrypt data after `SELECT`.
 
-
-dito na ako na part bai!!!
-
 #### 3. **Machine Learning Model**
 **Objective**: Use data from MySQL for model training and predictions.
 
@@ -394,19 +391,6 @@ model_performance helps monitor ML model updates and performance.
 
 
 
-
-
-
-
-blockchain
-This table simulates the blockchain by storing data in blocks.
-
-Columns:
-
-block_id (INT, Primary Key, Auto Increment)
-timestamp (DATETIME) – When the block was added.
-data (TEXT) – Encrypted data (e.g., patient symptoms and results).
-previous_hash (VARCHAR(255)) – Hash of the previous block.
-current_hash (VARCHAR(255)) – Hash of this block.
-
-this is the current contents in the table
+TODO:
+Check the connection of blockchain and the consensus
+API connection to the Frontend
