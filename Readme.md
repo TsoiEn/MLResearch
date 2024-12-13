@@ -206,6 +206,9 @@ This document outlines the step-by-step process to implement and integrate the b
       - Encrypt data before `INSERT`.
       - Decrypt data after `SELECT`.
 
+
+dito na ako na part bai!!!
+
 #### 3. **Machine Learning Model**
 **Objective**: Use data from MySQL for model training and predictions.
 
@@ -316,3 +319,94 @@ id of the new data, pointing to the new data index(id) then append the predictio
 blockchain:
 append the block attributes in the table of blockchain in the database.
 
+
+
+
+1. disease_data
+This table stores the primary dataset containing patient symptoms and associated predictions.
+
+Columns:
+
+id (INT, Primary Key, Auto Increment)
+Disease (VARCHAR(50))
+Gender (VARCHAR(10))
+Fever (VARCHAR(3))
+Cough (VARCHAR(3))
+Fatigue (VARCHAR(3))
+Difficulty_Breathing (VARCHAR(3))
+Age (INT)
+Blood_Pressure (VARCHAR(20))
+Cholesterol_Level (VARCHAR(20))
+Outcome_Variable (VARCHAR(20)) – The actual disease status (e.g., Positive/Negative)
+Predicted_Outcome (VARCHAR(20), nullable) – The prediction result by the ML model.
+
+
+2. users
+This table manages admin and medical personnel access to the system.
+
+Columns:
+
+user_id (INT, Primary Key, Auto Increment)
+username (VARCHAR(50), Unique)
+password (VARCHAR(255)) – Store encrypted passwords.
+role (VARCHAR(20)) – Admin or Medical Personnel.
+
+
+3. blockchain
+This table simulates the blockchain by storing data in blocks.
+
+Columns:
+
+block_id (INT, Primary Key, Auto Increment)
+timestamp (DATETIME) – When the block was added.
+data (TEXT) – Encrypted data (e.g., patient symptoms and results).
+previous_hash (VARCHAR(255)) – Hash of the previous block.
+current_hash (VARCHAR(255)) – Hash of this block.
+
+
+4. logs
+This table tracks actions performed by users for auditing and monitoring purposes.
+
+Columns:
+
+log_id (INT, Primary Key, Auto Increment)
+user_id (INT, Foreign Key referencing users.user_id)
+action (VARCHAR(255)) – Description of the action (e.g., "Added new data", "Updated prediction").
+timestamp (DATETIME)
+
+
+5. model_performance
+This table stores metadata about the machine learning model and its performance metrics for tracking and debugging.
+
+Columns:
+
+model_id (INT, Primary Key, Auto Increment)
+model_name (VARCHAR(50)) – e.g., "Random Forest"
+accuracy (FLOAT)
+precision (FLOAT)
+recall (FLOAT)
+timestamp (DATETIME) – When the model was last updated.
+Summary of Relationships:
+disease_data is the central table storing input data and prediction results.
+blockchain tracks changes in encrypted form for decentralization and security.
+users and logs ensure system accountability.
+model_performance helps monitor ML model updates and performance.
+
+
+
+
+
+
+
+blockchain
+This table simulates the blockchain by storing data in blocks.
+
+Columns:
+
+block_id (INT, Primary Key, Auto Increment)
+timestamp (DATETIME) – When the block was added.
+data (TEXT) – Encrypted data (e.g., patient symptoms and results).
+previous_hash (VARCHAR(255)) – Hash of the previous block.
+current_hash (VARCHAR(255)) – Hash of this block.
+
+this is the current contents in the table

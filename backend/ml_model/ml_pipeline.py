@@ -1,14 +1,13 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../data')))
 from phe import paillier
 import pandas as pd
 from pathlib import Path
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder, StandardScaler, FunctionTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
 import joblib
+import mysql.connector
+from data_config import db_cred
 from encryption.homomorphic import encrypt_data, decrypt_data
 
 # Generate public/private keys
@@ -25,16 +24,16 @@ def map_and_fill(data):
     mapping = {'Yes': 1, 'No': 0}
     gender_mapping = {'Male': 1, 'Female': 2}
     bp_mapping = {'Low': 1, 'Normal': 2, 'High': 3}
-    cholesterol_mapping = {'Normal': 1, 'High': 2, 'Very High': 3}
+    cholesterol_mapping = {'Low': 1, 'Normal': 2, 'High': 3}
 
     columns_to_map = {
         'Fever': mapping,
         'Cough': mapping,
         'Fatigue': mapping,
-        'Difficulty Breathing': mapping,
+        'Difficulty_Breathing': mapping,
         'Gender': gender_mapping,
-        'Blood Pressure': bp_mapping,
-        'Cholesterol Level': cholesterol_mapping,
+        'Blood_Pressure': bp_mapping,
+        'Cholesterol_Level': cholesterol_mapping,
     }
 
     for column, col_mapping in columns_to_map.items():
@@ -44,6 +43,22 @@ def map_and_fill(data):
             raise ValueError(f"Missing required column: {column}")
 
     return data
+
+def save_predictions_to_mysql(predictions):
+    db = db_cred()
+    cursor = db.cursor()
+
+    # Update the disease_data table with predictions
+    for i, prediction in enumerate(predictions):
+        sql = """
+        UPDATE disease_data 
+        SET Predicted_Outcome = %s 
+        WHERE id = %s;
+        """
+        cursor.execute(sql, (prediction, i + 1))  # Assuming 'id' is the row index in the database
+    db.commit()
+    cursor.close()
+    db.close()
 
 def main():
     try:
@@ -89,9 +104,23 @@ def main():
         predictions = model.predict(preprocessed_data)
         print("Predictions generated successfully.")
 
-        # Step 10: Output results
+        # Step 10: Calculate accuracy (if ground truth exists)
+        if 'Outcome_Variable' in processed_data.columns:
+            from sklearn.metrics import accuracy_score
+
+            true_labels = processed_data['Outcome_Variable']
+            accuracy = accuracy_score(true_labels, predictions)
+            print(f"Accuracy of predictions: {accuracy:.2f}")
+        else:
+            print("Ground truth column 'Outcome Variable' not found. Accuracy cannot be calculated.")
+
+        # Step 11: Output results
         processed_data["Predictions"] = predictions
         print(f"Predictions added to the dataset:\n{processed_data.head()}")
+        
+        # Step 12: Save predictions to MySQL
+        save_predictions_to_mysql(predictions)
+        print("Predictions saved to MySQL.")
 
     except Exception as e:
         print(f"An error occurred: {e}")

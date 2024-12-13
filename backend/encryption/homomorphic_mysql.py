@@ -2,7 +2,7 @@ import mysql.connector
 from phe import paillier
 import base64
 
-"#! QUOTIONS WAG IRUN ULIT Masisira, TAMA NA YUNG ISANG RUN"
+#! QUOTIONS WAG IRUN ULIT Masisira, TAMA NA YUNG ISANG RUN"
 
 # Initialize Paillier encryption keys
 public_key, private_key = paillier.generate_paillier_keypair()
@@ -53,7 +53,8 @@ def preprocess_and_encrypt_data():
         Fatigue = CASE WHEN Fatigue = 'Yes' THEN 1 WHEN Fatigue = 'No' THEN 0 ELSE 0 END,
         Difficulty_Breathing = CASE WHEN Difficulty_Breathing = 'Yes' THEN 1 WHEN Difficulty_Breathing = 'No' THEN 0 ELSE 0 END,
         Blood_Pressure = CASE WHEN Blood_Pressure = 'Low' THEN 1 WHEN Blood_Pressure = 'Normal' THEN 2 WHEN Blood_Pressure = 'High' THEN 3 ELSE 0 END,
-        Cholesterol_Level = CASE WHEN Cholesterol_Level = 'Normal' THEN 1 WHEN Cholesterol_Level = 'High' THEN 2 WHEN Cholesterol_Level = 'Very High' THEN 3 ELSE 0 END;
+        Cholesterol_Level = CASE WHEN Cholesterol_Level = 'Low' THEN 1 WHEN Cholesterol_Level = 'Normal' THEN 2 WHEN Cholesterol_Level = 'High' THEN 2 ELSE 0 END;
+        
     """)
 
     db.commit()

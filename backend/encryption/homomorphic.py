@@ -36,7 +36,7 @@ def process_encrypted_data(encrypted_data):
     :param encrypted_data: Encrypted DataFrame.
     :return: Decrypted results of computation.
     """
-    encrypted_sum = encrypted_data.sum(numeric_only=True).apply(private_key.decrypt)
+    encrypted_sum = encrypted_data.sum(numeric_only=False).apply(private_key.decrypt)
     return encrypted_sum
 
 # Test the encryption and decryption using a sample DataFrame
