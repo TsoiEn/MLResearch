@@ -2,7 +2,7 @@ import mysql.connector
 from phe import paillier
 import base64
 
-#! QUOTIONS WAG IRUN ULIT Masisira, TAMA NA YUNG ISANG RUN"
+"#! QUOTIONS WAG IRUN ULIT Masisira, TAMA NA YUNG ISANG RUN"
 
 # Initialize Paillier encryption keys
 public_key, private_key = paillier.generate_paillier_keypair()
@@ -19,6 +19,22 @@ def encrypt_value(value):
     encrypted_value = public_key.encrypt(numeric_value).ciphertext()
     encrypted_bytes = encrypted_value.to_bytes((encrypted_value.bit_length() + 7) // 8, byteorder='big')
     return base64.b64encode(encrypted_bytes).decode('utf-8')
+
+# Function to decrypt a value using Paillier decryption
+def decrypt_value(encrypted_value):
+    """
+    Decrypts a single encrypted value using the Paillier decryption scheme.
+    :param encrypted_value: Base64 encoded Paillier encrypted value.
+    :return: Decrypted numeric value.
+    """
+    try:
+        encrypted_bytes = base64.b64decode(encrypted_value)
+        encrypted_value = paillier.EncryptedNumber(public_key, int.from_bytes(encrypted_bytes, byteorder='big'))
+        decrypted_value = private_key.decrypt(encrypted_value)
+        return decrypted_value
+    except Exception as e:
+        print(f"Error decrypting value: {e}")
+        return None
 
 # Function to connect to the MySQL database
 def db_cred():
@@ -53,8 +69,7 @@ def preprocess_and_encrypt_data():
         Fatigue = CASE WHEN Fatigue = 'Yes' THEN 1 WHEN Fatigue = 'No' THEN 0 ELSE 0 END,
         Difficulty_Breathing = CASE WHEN Difficulty_Breathing = 'Yes' THEN 1 WHEN Difficulty_Breathing = 'No' THEN 0 ELSE 0 END,
         Blood_Pressure = CASE WHEN Blood_Pressure = 'Low' THEN 1 WHEN Blood_Pressure = 'Normal' THEN 2 WHEN Blood_Pressure = 'High' THEN 3 ELSE 0 END,
-        Cholesterol_Level = CASE WHEN Cholesterol_Level = 'Low' THEN 1 WHEN Cholesterol_Level = 'Normal' THEN 2 WHEN Cholesterol_Level = 'High' THEN 2 ELSE 0 END;
-        
+        Cholesterol_Level = CASE WHEN Cholesterol_Level = 'Normal' THEN 1 WHEN Cholesterol_Level = 'High' THEN 2 WHEN Cholesterol_Level = 'Very High' THEN 3 ELSE 0 END;
     """)
 
     db.commit()
@@ -109,10 +124,24 @@ def preprocess_and_encrypt_data():
             print(f"Error encrypting Row ID {row_id}: {e}")
 
     db.commit()
+
+    # Decrypt and print values for verification
+    cursor.execute("""
+    SELECT id, Gender, Fever, Cough, Fatigue, Difficulty_Breathing, Age, Blood_Pressure, Cholesterol_Level
+    FROM disease_data LIMIT 10;
+    """)
+    rows = cursor.fetchall()
+    for row in rows:
+        print(f"Row ID: {row[0]}")
+        for i, value in enumerate(row[1:], 1):
+            if value is not None:
+                decrypted_value = decrypt_value(value)
+                print(f"Decrypted Value for column {i}: {decrypted_value}")
+            else:
+                print(f"Column {i} is None")
+
     cursor.close()
     db.close()
-
-
 
 # Function to execute the entire process
 def process_data():

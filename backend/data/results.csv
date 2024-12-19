@@ -1,4 +1,4 @@
-Disease,Gender,Fever,Cough,Fatigue,Difficulty Breathing,Age,Blood Pressure,Cholesterol Level,Outcome Variable,Predictions
+Disease,Gender,Fever,Cough,Fatigue,Difficulty_Breathing,Age,Blood_Pressure,Cholesterol_Level,Outcome_Variable,Predictions
 Influenza,Female,Yes,No,Yes,Yes,19,Low,Normal,Positive,Positive
 Common Cold,Female,No,Yes,Yes,No,25,Normal,Normal,Negative,Negative
 Eczema,Female,No,Yes,Yes,No,25,Normal,Normal,Negative,Negative
@@ -154,7 +154,7 @@ Migraine,Male,Yes,Yes,Yes,No,42,High,High,Negative,Negative
 Osteoarthritis,Male,No,No,Yes,No,42,Normal,Low,Negative,Negative
 Stroke,Male,Yes,No,Yes,No,42,Normal,Low,Negative,Negative
 Urinary Tract Infection,Female,No,Yes,Yes,Yes,42,Normal,Low,Negative,Negative
-Diabetes,Male,Yes,Yes,Yes,No,42,High,Normal,Positive,Positive
+Diabetes,Male,Yes,Yes,Yes,No,42,High,Normal,Positive,Negative
 Hypothyroidism,Female,Yes,Yes,Yes,No,42,High,High,Positive,Positive
 Hypothyroidism,Female,Yes,Yes,Yes,No,42,High,High,Positive,Positive
 Kidney Disease,Female,Yes,No,Yes,No,42,High,Low,Positive,Positive
@@ -273,7 +273,7 @@ Typhoid Fever,Male,No,Yes,No,No,55,Normal,Low,Positive,Positive
 Typhoid Fever,Male,No,Yes,No,No,55,Normal,Low,Positive,Positive
 Influenza,Male,Yes,Yes,Yes,Yes,56,High,High,Positive,Positive
 Pneumonia,Male,Yes,Yes,No,Yes,57,Normal,High,Negative,Negative
-Breast Cancer,Male,No,No,Yes,No,60,High,High,Negative,Negative
+Breast Cancer,Male,No,No,Yes,No,60,High,High,Negative,Positive
 Coronary Artery Disease,Male,Yes,Yes,No,No,60,High,High,Negative,Negative
 Coronary Artery Disease,Male,Yes,Yes,No,No,60,High,High,Negative,Negative
 Hyperthyroidism,Male,No,No,Yes,No,60,Normal,Normal,Negative,Negative
@@ -281,7 +281,7 @@ Measles,Female,Yes,Yes,No,No,60,High,Normal,Negative,Negative
 Measles,Female,Yes,Yes,No,No,60,High,Normal,Negative,Negative
 Osteoarthritis,Female,No,Yes,No,Yes,60,Normal,Normal,Negative,Negative
 Osteomyelitis,Male,No,No,Yes,No,60,Normal,Normal,Negative,Negative
-Osteoporosis,Male,Yes,No,No,No,60,High,High,Negative,Negative
+Osteoporosis,Male,Yes,No,No,No,60,High,High,Negative,Positive
 Osteoporosis,Male,No,Yes,No,No,60,High,High,Negative,Negative
 Osteoporosis,Male,No,Yes,No,No,60,High,High,Negative,Negative
 Polio,Male,Yes,Yes,Yes,No,60,Normal,Normal,Negative,Negative
@@ -336,9 +336,9 @@ Parkinson's Disease,Male,No,No,Yes,No,70,Normal,Normal,Negative,Negative
 Prostate Cancer,Male,Yes,Yes,No,No,70,High,Normal,Negative,Negative
 Schizophrenia,Male,No,Yes,Yes,No,70,Normal,Normal,Negative,Negative
 Gout,Female,Yes,No,Yes,No,70,Normal,High,Positive,Positive
-Migraine,Female,No,No,Yes,No,70,Normal,Normal,Positive,Negative
-Stroke,Male,No,Yes,No,No,70,Normal,High,Positive,Positive
-Stroke,Male,No,Yes,No,No,70,Normal,High,Positive,Positive
+Migraine,Female,No,No,Yes,No,70,Normal,Normal,Positive,Positive
+Stroke,Male,No,Yes,No,No,70,Normal,High,Positive,Negative
+Stroke,Male,No,Yes,No,No,70,Normal,High,Positive,Negative
 Testicular Cancer,Female,No,No,Yes,No,70,High,High,Positive,Positive
 Tonsillitis,Female,Yes,Yes,Yes,No,70,High,High,Positive,Positive
 Williams Syndrome,Female,No,No,Yes,No,70,Normal,Normal,Positive,Positive

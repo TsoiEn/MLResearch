@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Student Credentials</title>
+    <title>Patient Record</title>
     <link rel="stylesheet" href="Predictions.css">
     <script defer src="script.js"></script>
 </head>
@@ -28,9 +28,15 @@
                     <thead>
                         <tr>
                             <th>Patient ID</th>
-                            <th>Last Name</th>
-                            <th>First Name</th>
                             <th>Disease</th>
+                            <th>Gender</th>
+                            <th>Fever</th>
+                            <th>Cough</th>
+                            <th>Fatigue</th>
+                            <th>Difficulty Breathing</th>
+                            <th>Age</th>
+                            <th>Blood Pressure</th>
+                            <th>Cholesterol Level</th>
                             <th>Prediction</th>
                         </tr>
                     </thead>
@@ -39,9 +45,15 @@
                         <tr>
                             <!-- Rows will be dynamically added here -->
                             <td>{{.PatientID}}</td>
-                            <td>{{.LastName}}</td>
-                            <td>{{.FirstName}}</td>
                             <td>{{.Disease}}</td>
+                            <td>{{.Gender}}</td>
+                            <td>{{.Fever}}</td>
+                            <td>{{.Cough}}</td>
+                            <td>{{.Fatigue}}</td>
+                            <td>{{.Difficulty}}</td>
+                            <td>{{.Age}}</td>
+                            <td>{{.Blood_Pressure}}</td>
+                            <td>{{.Cholesterol_Level}}</td>
                             <td>{{.Prediction}}</td>
                         </tr>
                         {{end}}
